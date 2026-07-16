@@ -1,0 +1,1347 @@
+{
+  "meta": {
+    "title": "Chinggis Khaan Statue Complex | Nalaikh, Ulaanbaatar · 40m stainless equestrian statue, museum & steppe cultural landmark",
+    "description": "The complete guide to the Chinggis Khaan Statue Complex (Mongolian: Чингис Хааны морин хөшөө): a 40-metre stainless-steel equestrian statue of Chinggis Khaan standing on the Tsonjin Boldog steppe about 54 km southeast of Ulaanbaatar, Mongolia. Completed in 2008 by sculptor D. Erdenebileg and architect J. Enkhjargal, it faces east — the direction of Chinggis Khaan’s birth. Visitors ride an interior lift and walkway up to the horse’s head for a panorama over the Tuul River steppe; the base houses a museum, restaurant and souvenir shops, plus the world’s largest boot-shaped café. Rated 4.5 (4,344), it is one of Mongolia’s most representative attractions. Opening hours, transport, history, photo spots and visitor reviews — all in one place."
+  },
+  "header": {
+    "siteName": "Chinggis Khaan Statue Complex",
+    "home": "Home",
+    "visit": "Visit",
+    "transport": "Transport",
+    "lodging": "Stay",
+    "history": "History",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "map": "Map",
+    "backToHome": "Back to home"
+  },
+  "common": {
+    "changeLanguage": "Change language",
+    "toggleTheme": "Toggle theme"
+  },
+  "nonprofitBanner": {
+    "text": "This is a non-profit independent guide compiled by enthusiastic travellers, offering the most objective information on the Chinggis Khaan Statue Complex free of charge, affiliated with no organisation.",
+    "dataSource": "All information on this site is cross-checked against public materials from Mongolia Travel (Ministry of Environment and Tourism), the Ulaanbaatar Tourism Department and related official sources, with no commercial endorsements."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "So that every traveller who comes to Mongolia will not miss this stainless giant rising above the steppe, we have gathered scattered official information into this guide — to give you the purest experience of “look up, climb up, and read the steppe empire.”"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "region": "Ulaanbaatar City",
+    "city": "Nalaikh District",
+    "current": "Chinggis Khaan Statue Complex"
+  },
+  "stickyNav": {
+    "facts": "Key Facts",
+    "timeline": "Timeline",
+    "etiquette": "Visitor Etiquette",
+    "route": "Half-Day Route",
+    "transport": "Transport",
+    "lodging": "Stay",
+    "visit": "Visit Tips",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Chinggis Khaan Statue Complex",
+    "subtitle": "A 40-metre stainless-steel equestrian statue of Chinggis Khaan on the Tsonjin Boldog steppe, about 54 km southeast of Ulaanbaatar, Mongolia. Completed in 2008 by sculptor D. Erdenebileg and architect J. Enkhjargal, it faces east — the direction of Chinggis Khaan’s birth. Visitors ride an interior lift and walkway up to the horse’s head for a panorama over the Tuul River steppe; the base houses a museum, restaurant, souvenir shops, and the world’s largest boot-shaped café.",
+    "rating": "4.5 (4,344)",
+    "reviewCount": "4,344 reviews",
+    "hours": "10:00–18:00 (year-round)",
+    "openMaps": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/iNBHqntxJc3M3wwp9",
+    "legend": {
+      "quote": "Legend says Chinggis Khaan once found a golden whip here and knew this was the auspicious site of his future capital (Karakorum). More than eight centuries later, this 40-metre stainless giant stands the steppe empire’s ambition back into the wind above the Tuul River.",
+      "attribution": "— Steppe Chronicle · Chinggis Khaan Statue Complex"
+    },
+    "tags": [
+      "40m stainless giant",
+      "Climb to the horse head",
+      "Steppe cultural landmark"
+    ],
+    "routeCta": {
+      "label": "Plan your route",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Learn the history",
+      "href": "#history"
+    },
+    "quickFacts": [
+      {
+        "icon": "🐎",
+        "label": "Highlight",
+        "value": "40m equestrian statue"
+      },
+      {
+        "icon": "🎟️",
+        "label": "Summit",
+        "value": "Climb the head"
+      },
+      {
+        "icon": "🕘",
+        "label": "Open",
+        "value": "10:00–18:00"
+      }
+    ],
+    "navCta": {
+      "label": "📍 Navigate",
+      "href": "#transport"
+    },
+    "photoCta": {
+      "label": "📸 Photo spots",
+      "href": "#gallery"
+    },
+    "factsSource": {
+      "label": "Hours & tickets per official site",
+      "url": "https://www.mongolia.travel"
+    },
+    "liveInfo": {
+      "weather": "Current weather",
+      "sunset": "Today's sunset"
+    },
+    "sunsetPlanner": {
+      "eyebrow": "Golden Hour Calculator · Light tool",
+      "title": "Based on today’s sunset, arrive about 60 minutes earlier to catch the softest diffuse light and the golden giant on the steppe; the best light for the horse-head panorama is also at this moment.",
+      "note": "The statue stands on open steppe with no obstruction; light is warmest from dawn to dusk. The Mongolian plateau has large day-night temperature swings — dress for wind and cold.",
+      "seaGlare": "Sunrise tip: the eastern sky brightens first, the sun rises from the horse’s direction, and the silhouette is most majestic against backlight; plateau mornings are cold — bring a windproof jacket.",
+      "arriveLabel": "Suggested arrival",
+      "blueHourLabel": "Blue hour",
+      "lightCaption": "Light calculated live by Open-Meteo",
+      "lightStatusHint": "Calculating live light…",
+      "countdownHint": "To golden hour (live countdown)"
+    },
+    "practicalInfo": {
+      "ariaLabel": "Practical info: opening hours and admission",
+      "clockIcon": "🕘",
+      "ticketIcon": "🎟️",
+      "hoursLabel": "Opening Hours",
+      "hoursValue": "10:00–18:00",
+      "hoursNote": "Open year-round",
+      "admissionLabel": "Admission",
+      "admissionValue": "20,000 MNT",
+      "admissionNote": "On-site · No booking needed"
+    }
+  },
+  "quickFactsDashboard": {
+    "title": "Chinggis Khaan Statue Complex at a Glance · Facts Board",
+    "subtitle": "A few numbers to understand this steppe giant above the Tuul River.",
+    "items": [
+      {
+        "icon": "🐎",
+        "label": "Height / Height",
+        "value": "40 m stainless",
+        "note": "The equestrian statue is about 40 m tall and forged from around 250 tonnes of gleaming stainless steel; standing atop a 10 m visitor-centre base, it reaches roughly 50 m — the tallest equestrian statue in the world."
+      },
+      {
+        "icon": "📅",
+        "label": "Built / Built",
+        "value": "2008",
+        "note": "Completed in 2008 to mark the 800th anniversary of the Mongol Empire; designed by sculptor D. Erdenebileg (Д. Эрдэнэбилэг) with architect J. Enkhjargal (Ж. Энхжаргал), funded by the Genco Tour Bureau at a cost of about USD 4.1 million."
+      },
+      {
+        "icon": "🧭",
+        "label": "Facing / Facing",
+        "value": "Faces east",
+        "note": "Crowned with a Mongol helmet and clad in armour, it faces east — the direction of Chinggis Khaan’s birth, symbolising the rising ambition of the steppe empire."
+      },
+      {
+        "icon": "🏛️",
+        "label": "Base / Base",
+        "value": "Museum & giant boot",
+        "note": "The circular base is supported by 36 columns representing the 36 khans from Chinggis Khaan to Ligden Khan; inside are an underground archaeological museum, restaurant and shops, plus a 9 m traditional Mongol boot made from over 200 cowhides. The complex covers about 212 hectares."
+      },
+      {
+        "icon": "📍",
+        "label": "Coords / Coords",
+        "value": "≈ 47°49′N, 107°32′E",
+        "note": "Plus Code: RG5H+7W Nalaikh. Address: ND - 5 khoroo, Nalaikh, Ulaanbaatar 12593, Mongolia.",
+        "copyCode": "RG5H+7W",
+        "copyLabel": "Copy Plus Code"
+      },
+      {
+        "icon": "🎟️",
+        "label": "Admission / Admission",
+        "value": "20,000 MNT",
+        "note": "General admission is about 20,000 MNT (tögrög), covering the museum and the climb to the horse's head; buy on site with no advance booking needed. Card machines are often unreliable, so carry local cash. Confirm details with the official announcement."
+      }
+    ]
+  },
+  "hiddenRules": {
+    "title": "Steppe Visiting Tips",
+    "subtitle": "On open steppe and a popular photo spot, sorting out safety, timing and budget upgrades the experience from “rushed check-in” to “relaxed visit.”",
+    "highlights": [
+      {
+        "icon": "👟",
+        "label": "Footwear & wind",
+        "value": "Wear comfy shoes",
+        "note": "Windy steppe with occasional gravel and slopes; climbing the head uses interior walkways and stairs — wear flat comfy shoes. Strong sun, cold nights: bring sunscreen and a windproof layer."
+      },
+      {
+        "icon": "🚧",
+        "label": "Summit & order",
+        "value": "Follow the queue",
+        "note": "The horse-head climb uses an interior lift and narrow walkway — follow staff, no reversing or crossing rails; accompany children and elders."
+      },
+      {
+        "icon": "🌡️",
+        "label": "Plateau climate",
+        "value": "Hydrate & layer",
+        "note": "Big day-night swings and strong UV on the plateau — carry water and a light jacket. Winter is severe; some facilities may close — confirm ahead."
+      }
+    ],
+    "panels": [
+      {
+        "q": "Is a separate ticket needed to climb the head?",
+        "a": "The site is ticketed; the head climb and museum are usually included or need separate booking — check the box office and official notice.",
+        "items": [
+          "Keep your ticket after entry.",
+          "Head slots and hours may be limited — off-peak is easier."
+        ]
+      },
+      {
+        "q": "Is it easy with kids or elders?",
+        "a": "The base and museum are relatively flat with walkways and a lift; the head climb uses interior stairs and narrow paths — elders and young children should enjoy the ground level and plan accordingly."
+      },
+      {
+        "q": "Can I go in winter or on windy days?",
+        "a": "Open year-round, but Mongolian winters are severe with frequent strong wind; outdoor and summit facilities may close temporarily. Confirm the day’s opening and dress warm."
+      }
+    ]
+  },
+  "complianceGuide": {
+    "title": "Chinggis Khaan Statue Complex · Etiquette & Steppe Environment Guide",
+    "subtitle": "This is both a visitor landmark and a sacred place of Mongolian national memory. Following these rules is double respect for the land, history and others.",
+    "rules": [
+      {
+        "badge": "🚮",
+        "title": "Take your litter",
+        "text": "The steppe ecosystem is fragile with limited bins — bring a small bag and take everything away, especially cigarette butts, plastics and food scraps; keep the square and walkways tidy."
+      },
+      {
+        "badge": "🔇",
+        "title": "Quiet & courtesy",
+        "text": "The open square often hosts tour groups and pilgrims — lower your voice, no loud music; leave room for photos, meditation and those who pause."
+      },
+      {
+        "badge": "🚭",
+        "title": "No smoking & fire",
+        "text": "Dry, windy steppe — observe no-smoking and fire signs; do not smoke among wooden structures, grass or crowds; prevent steppe fires."
+      },
+      {
+        "badge": "🌱",
+        "title": "Protect the statue & art",
+        "text": "The stainless giant, sculptures and the Nine Banners corridor are public-value steppe landscapes — do not climb the base, discard items on the green or carve; keep this sacred place safe and dignified."
+      }
+    ]
+  },
+  "higashiyamaRoute": {
+    "title": "Custom Itinerary: Chinggis Khaan Statue Complex Half-Day Route",
+    "subtitle": "Not just “who it suits” — a half-day route you can follow directly, centred on the statue, museum and steppe, linked toward Terelj.",
+    "steps": [
+      {
+        "title": "[Start] Square view & Nine Banners corridor",
+        "meta": "Warm-up · ≈ 30 min",
+        "text": "Enter from the parking lot to the square, look up at the 40 m stainless equestrian statue, and walk the Nine Banners (horse-tail flags) corridor to read the symbols of the Mongol Empire — align your body with the scale of the steppe.",
+        "tips": [
+          "Best light and fewer crowds at dawn and dusk."
+        ]
+      },
+      {
+        "title": "[Main] Climb the head & panorama",
+        "meta": "Core experience · ≈ 40 min",
+        "text": "Take the interior lift then walkway up to the horse head; through the viewing openings at the mane and ears, overlook the Tuul River steppe — the most tense moment of the whole site and the best vantage to grasp the “steppe empire.”",
+        "tips": [
+          "Head slots are limited — arrive early or off-peak."
+        ]
+      },
+      {
+        "title": "[Extend] Base museum",
+        "meta": "Stories · ≈ 40 min",
+        "text": "Back at the base museum, read exhibits on the Xiongnu, Turkic and Mongol empires and the “golden whip” legend and Chinggis Khaan’s life — collect military history and steppe narrative together.",
+        "tips": [
+          "Mostly static exhibits — read slowly along the route."
+        ]
+      },
+      {
+        "title": "[Refuel] Boot café & souvenirs",
+        "meta": "Cultural break · ≈ 40 min",
+        "text": "Rest at the world’s largest boot-shaped café, then browse the souvenir shop for water and supplies — fold the giant, steppe and Mongolian life into one stroll.",
+        "tips": [
+          "Limited supplies nearby — bring your own water."
+        ]
+      },
+      {
+        "title": "[End] Extend toward Terelj",
+        "meta": "Wrap · ≈ 60 min+",
+        "text": "If energy and vehicle allow, continue to nearby Gorkhi-Terelj National Park, stringing the giant with steppe, forest and rock art into a complete half-day steppe package.",
+        "tips": [
+          "The giant is most majestic backlit at dusk — save your photo for the end."
+        ]
+      }
+    ],
+    "disclaimer": "The route above emphasises a closed loop that “works even if you just follow it”; if you only want the statue, keep the first two segments and treat the museum and café as optional."
+  },
+  "intro": {
+    "title": "Approaching the Chinggis Khaan Statue Complex",
+    "description": "The Chinggis Khaan Statue Complex (Чингис Хааны морин хөшөө) stands on the Tsonjin Boldog steppe about 54 km southeast of Ulaanbaatar, Mongolia, with the Tuul River winding beside it. It is a roughly 40 m stainless-steel equestrian statue of Chinggis Khaan, completed in 2008 by sculptor D. Erdenebileg and architect J. Enkhjargal, facing east — the direction of Chinggis Khaan’s birth. Far from an isolated monument, it is a composite cultural space: the base hides a museum, restaurant and souvenir shops, and stands the world’s largest boot-shaped café. Laid out north–south, the movement from square to horse head is clear with almost no steep slopes — the core gateway landmark of any steppe journey.",
+    "visitGuide": {
+      "title": "Visit Guide",
+      "eyebrow": "Practical planning",
+      "description": "The Chinggis Khaan Statue Complex is a ticketed steppe cultural site. The ideal approach is not “wander by day” but to reverse-plan around light and the summit: soft light at dawn or dusk makes the best photos, and the lit silhouette after dusk is most majestic; climb the head early to avoid tour groups. Facilities are concentrated and themed — which is exactly its charm.",
+      "items": [
+        "Dawn or dusk first: softest steppe light, giant and head in one frame.",
+        "Best views are front-square and the head viewpoint after climbing.",
+        "About 1 hour by car from Ulaanbaatar — hire a car or join a day tour.",
+        "Limited commercial supplies on site — arrange water, restrooms and breaks ahead."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "World’s tallest equestrian statue of Chinggis Khaan — ~40 m stainless steel, facing east",
+        "Climb the horse head for a viewpoint over the Tuul River steppe",
+        "Base museum links Xiongnu, Turkic and Mongol artefacts with the “golden whip” legend",
+        "World’s largest boot-shaped café — a fun steppe photo landmark",
+        "On the Tsonjin Boldog steppe, ~54 km from Ulaanbaatar — gateway to the steppe"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Transport & Arrival Guide",
+    "subtitle": "Integrating outbound transport from Ulaanbaatar, city transfers, car hire, parking and nearby links to plan your Chinggis Khaan Statue Complex trip clearly.",
+    "overviewTitle": "From Ulaanbaatar",
+    "overviewText": "The Chinggis Khaan Statue Complex lies on the Tsonjin Boldog steppe about 54 km southeast of Ulaanbaatar, Mongolia, along the Tuul River, mostly on asphalt. The easiest way is to hire a car, taxi or join a day tour from the city, driving east toward Gorkhi-Terelj National Park for about 1 hour. If flying in, first reach Ulaanbaatar (Chinggis Khaan International Airport), then transfer overland.",
+    "overviewText2": "The site is open steppe with a supporting car park. Plan transport, parking and the summit route together — especially with elders, children or luggage, parking at the site then walking in saves much trouble.",
+    "coordsLabel": "Plus Code (map import)",
+    "coordsCity": "Nalaikh · Mongolia",
+    "copyLabel": "Copy",
+    "arrivalTitle": "Remember before departure",
+    "arrivalItems": [
+      "The statue is ~54 km southeast of Ulaanbaatar; about 1 hour by car or taxi from the city.",
+      "Ticketed entry; outdoor and summit facilities may adjust in severe winter or strong wind — daytime is more comfortable.",
+      "Crowds on weekends and peak season, especially tour groups; go off-peak, and arrive early for easier parking."
+    ],
+    "modes": [
+      {
+        "label": "Flight (to Ulaanbaatar)",
+        "icon": "✈️",
+        "title": "International to Mongolia",
+        "description": "Easiest for most international travellers: fly to Ulaanbaatar (Chinggis Khaan International Airport), then hire a car or taxi east for about 1 hour — the classic way to the statue.",
+        "details": [
+          "International flights direct or via stops to Ulaanbaatar.",
+          "Transfer by car/taxi ~1 hour to the site.",
+          "Book a licensed agency or driver in advance."
+        ],
+        "steps": [
+          {
+            "n": "1",
+            "t": "Fly to Ulaanbaatar."
+          },
+          {
+            "n": "2",
+            "t": "Hire a car or taxi to the statue."
+          },
+          {
+            "n": "3",
+            "t": "Walk to the square and base."
+          }
+        ]
+      },
+      {
+        "label": "Car hire / taxi (to site)",
+        "icon": "🚕",
+        "title": "City to site",
+        "description": "Flexible: from Ulaanbaatar hire a car or taxi east via Terelj ~54 km, about 1 hour to the statue — the choice of most visitors.",
+        "details": [
+          "~54 km city to site, good road.",
+          "Car hire can link Terelj as you wish.",
+          "Allow buffer in peak season and use a local taxi app in snow/rain."
+        ],
+        "steps": [
+          {
+            "n": "1",
+            "t": "Book a car/taxi in Ulaanbaatar."
+          },
+          {
+            "n": "2",
+            "t": "Drive east via Terelj ~1 hour."
+          },
+          {
+            "n": "3",
+            "t": "Arrive at site car park, walk in."
+          }
+        ]
+      },
+      {
+        "label": "Day tour / minibus",
+        "icon": "🚌",
+        "title": "The hidden shared option",
+        "description": "Many Ulaanbaatar agencies offer day tours including the statue and Terelj, or shared minibuses — good for light travellers who want to see it first, skipping self-drive and navigation.",
+        "details": [
+          "Day tours usually include tickets and a guide.",
+          "Minibus departures limited — book a day ahead.",
+          "Dawn and weekdays best to avoid groups."
+        ],
+        "steps": [
+          {
+            "n": "1",
+            "t": "Join a day tour/minibus in the city."
+          },
+          {
+            "n": "2",
+            "t": "Ride ~1 hour to the statue."
+          },
+          {
+            "n": "3",
+            "t": "Climb and visit museum with the group."
+          }
+        ]
+      },
+      {
+        "label": "Self-drive (park/charge)",
+        "icon": "🅿️",
+        "title": "Via Terelj · nearby parking",
+        "description": "Good with elders/children, lots of luggage, or when touring Mongolia; the site has a supporting car park.",
+        "details": [
+          "Navigate to “Чингис Хааны морин хөшөө” or “Nalaikh, Ulaanbaatar”.",
+          "Limited car-park spaces, fills on weekends/holidays.",
+          "Few chargers on the steppe — charge in the city first."
+        ],
+        "steps": [
+          {
+            "n": "1",
+            "t": "Set navigation to the statue."
+          },
+          {
+            "n": "2",
+            "t": "Park at the site lot, walk in."
+          },
+          {
+            "n": "3",
+            "t": "Avoid 11:00–19:00 peak to save parking time."
+          }
+        ]
+      },
+      {
+        "label": "On foot (within site)",
+        "icon": "🚶",
+        "title": "From square to head",
+        "description": "If already on site, walking is the most natural way to observe the giant, Nine Banners corridor and steppe.",
+        "details": [
+          "Square to base/museum is a few minutes’ walk.",
+          "Head climb uses interior lift then walkway — mind steps.",
+          "Flat paths, comfy shoes, watch children and belongings."
+        ]
+      },
+      {
+        "label": "Horseback / steppe slow",
+        "icon": "🐎",
+        "title": "Steppe slow travel",
+        "description": "The most relaxing way to feel the steppe empire (mostly horse-riding experiences).",
+        "details": [
+          "Open terrain nearby — short horse rides available.",
+          "Go with a licensed horseman, not alone into the steppe.",
+          "A short transfer from the square to nearby grassland."
+        ]
+      }
+    ],
+    "parking": {
+      "title": "Parking & Charging",
+      "note": "The Chinggis Khaan Statue Complex has a supporting car park; below are the nearest main options. Rates and spaces vary by season and time — follow on-site signs.",
+      "colOption": "Option",
+      "colDistance": "Distance",
+      "colPrice": "Price",
+      "options": [
+        {
+          "name": "Main site car park",
+          "distance": "≈ 50–200 m (to square)",
+          "price": "Paid, fills in peak season"
+        },
+        {
+          "name": "Outer site parking",
+          "distance": "≈ 300–800 m",
+          "price": "Public/paid, more spaces, tight in peak"
+        },
+        {
+          "name": "Nearby roadside temporary",
+          "distance": "≈ 200–500 m",
+          "price": "Roadside/small, few spaces, easier on weekdays"
+        },
+        {
+          "name": "Terelj transfer parking",
+          "distance": "≈ 10–30 km",
+          "price": "Day-tour link, needs shuttle"
+        },
+        {
+          "name": "Drop-off (near site)",
+          "distance": "≈ 50–100 m",
+          "price": "Drop only, no spaces"
+        }
+      ],
+      "disclaimer": "Holidays and clear weather cause congestion on the steppe — do not block fire and public-transit lanes. EV chargers are scarce, mostly in Ulaanbaatar — check posted signs and plan ahead."
+    },
+    "driverFaqTitle": "Transport FAQ",
+    "driverFaq": [
+      {
+        "q": "Is there parking near the statue?",
+        "a": "The site has a supporting (mostly paid) car park within walking distance. Fills easily on weekends/holidays — arrive early or prefer a day tour/car hire."
+      },
+      {
+        "q": "What is the nearest parking?",
+        "a": "The main site car park is ~50–200 m, the closest to the square; outer parking ~300–800 m, more spaces but tight in peak season."
+      },
+      {
+        "q": "Is there roadside parking?",
+        "a": "Limited. Wide steppe roads but congested on holidays — no long roadside parking; use proper lots and day-tour shuttles."
+      },
+      {
+        "q": "Is driving recommended?",
+        "a": "Unless parking is essential, a car hire or day tour is better. Few chargers on the steppe — self-drivers charge in Ulaanbaatar first."
+      },
+      {
+        "q": "Public transport recommended?",
+        "a": "Very much so — car hire or day tour. About 1 hour from the city, the most worry-free. Address: ND - 5 khoroo, Nalaikh, Ulaanbaatar."
+      },
+      {
+        "q": "Best route here?",
+        "a": "For stability and ease, car hire or day tour remains optimal; if you must self-drive, treat parking and shuttle as part of the trip, not “door-to-door.”"
+      }
+    ],
+    "localTipsTitle": "Practical tips",
+    "localTips": [
+      "Dawn and dusk remain golden, but set “arrive 60 min before sunset” as your baseline — best for giant-and-steppe light.",
+      "Crowds high on weekends and peak season, especially tour groups; with kids or gear, buffer and off-peak are essential.",
+      "Best paired with Gorkhi-Terelj National Park and Ulaanbaatar; a standalone stop underestimates its steppe value."
+    ],
+    "mapsCta": "View map & route",
+    "mapsUrl": "https://maps.app.goo.gl/iNBHqntxJc3M3wwp9",
+    "bestTime": {
+      "title": "Best arrival time",
+      "text": "The site is reachable year-round, but photo ceilings are set by soft dawn light and the lit silhouette after dusk. Arrive about 60 minutes before sunset; if weather is poor, shift focus to the base museum and steppe walk."
+    }
+  },
+  "officialManagement": {
+    "title": "About this steppe cultural landmark",
+    "text": "The Chinggis Khaan Statue Complex is maintained and operated by relevant Mongolian culture and tourism institutions as a public attraction — both a stainless giant and a composite cultural space with museum, restaurant, souvenir shops and a boot-shaped café. Its social role goes far beyond “a green field”: as a symbol of Mongolian national memory and identity, it hosts travellers’ awe, family outings, history study and steppe pilgrimage, and is a node in Mongolia’s “steppe as classroom, giant as monument” tourism vision."
+  },
+  "humanities": {
+    "title": "People & Land: from Tsonjin Boldog to the Steppe Empire",
+    "subtitle": "Place Chinggis Khaan’s campaigns, Tsonjin Boldog’s toponym memory, the golden-whip legend and the modern statue on one timeline to truly read why this giant is more than “pretty metal.”"
+  },
+  "knowledge": {
+    "title": "History & Origins of the Chinggis Khaan Statue Complex",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Tsonjin Boldog & the golden-whip legend",
+        "content": "Today’s Tsonjin Boldog (Цонжин Болдог) means “stone of wisdom” or “sacred stone land” in Mongolian. Legend holds that in 1177, the future Chinggis Khaan — then still called Temüjin — found a golden whip in the grass here on his way back from meeting Toghrul (Wang Khan); it was read as an auspicious omen foretelling his conquests. Since then Tsonjin Boldog has been seen as a sacred place and the spiritual origin of this statue, raised to mark the 800th anniversary of the Mongol Empire. The giant faces east, gazing toward Chinggis Khaan’s birthplace in Khentii Province."
+      },
+      {
+        "id": "redbrick",
+        "title": "Birth of the giant (2008)",
+        "content": "In 2008 Mongolia completed this ~40 m stainless-steel equestrian statue of Chinggis Khaan. Sculptor D. Erdenebileg (Д. Эрдэнэбилэг) shaped the horse and figure; architect J. Enkhjargal (Ж. Энхжаргал) led the structure and base —重塑 the steppe empire’s symbol in modern materials. It faces east — the direction of Chinggis Khaan’s birth, symbolising the rising ambition of the empire."
+      },
+      {
+        "id": "name",
+        "title": "“Equestrian statue” & its facing",
+        "content": "The statue shows Chinggis Khaan in armour, reining in his horse — crowned with a traditional Mongol helmet. Equestrian rather than standing emphasises the core image of the Mongol Empire as “a world on horseback”; facing east echoes the epic of Chinggis rising from the land of the rising sun."
+      },
+      {
+        "id": "development",
+        "title": "Composite base (museum, etc.)",
+        "content": "Not an isolated monument, it is a composite cultural space. The base museum displays artefacts, armour and maps of the Xiongnu, Turkic and Mongol empires; with a restaurant, souvenir shop and the world’s largest boot-shaped café, visitors can linger in steppe culture after looking up at the giant."
+      },
+      {
+        "id": "performance",
+        "title": "Climbing the head & the view",
+        "content": "The signature experience is riding the interior lift and walkway up to the horse head. Through viewing openings at the mane and ears you overlook the endless Tuul River steppe — the best vantage to grasp the geography of the “steppe empire” and the most tense movement of the site."
+      },
+      {
+        "id": "sculpture",
+        "title": "Nine Banners corridor & public art",
+        "content": "Around the square are public artworks such as the Nine Banners (horse-tail flags) corridor, using Mongol imperial military insignia and historical symbols to turn the green into a walkable open-air history classroom. Sculpture and steppe echo each other, making the complex both a national landmark and a wall-less steppe memorial."
+      },
+      {
+        "id": "street",
+        "title": "National memory & identity",
+        "content": "Since completion, the statue has risen from a photo spot to a vessel of Mongolian national memory and identity. It carries not just metal and height, but a public spirit that “the steppe empire never faded.”"
+      },
+      {
+        "id": "ecology",
+        "title": "Steppe ecology & the Tuul River",
+        "content": "Amid the vast Mongolian plateau, the giant’s cold steel contrasts with the warm green of the steppe. The Tuul River winds beside it — green in spring, golden in autumn — a living sample of “human and steppe coexistence.”",
+        "cards": [
+          {
+            "title": "Four seasons of the steppe",
+            "text": "Lush green waves and mild summers; golden grass and high skies in autumn; silver silence and solemn grandeur in winter."
+          },
+          {
+            "title": "Value of the Tuul River",
+            "text": "As the mother river of Ulaanbaatar, the Tuul winds past the statue, giving the steppe water and layers — the giant’s most natural backdrop."
+          },
+          {
+            "title": "Observation tip",
+            "text": "At dawn or on quiet weekdays you best read the giant’s silhouette and the steppe’s layers; from the square you see the “statue–river–steppe” structure at a glance."
+          }
+        ],
+        "fieldNote": {
+          "title": "Observation tip",
+          "text": "First read the whole silhouette from the square front, then climb the head for the steppe panorama. Distance for the whole; closeness for the stainless detail."
+        },
+        "academicNote": {
+          "title": "Academic note",
+          "text": "This section is a popular-science overview based on official site interpretation and field features. For stricter historical and ecological divisions, rely on official materials, on-site signs and academic research."
+        }
+      },
+      {
+        "id": "legend",
+        "title": "The “golden whip” legend & steppe symbol",
+        "content": "In Mongolian folktales, the golden whip of Tsonjin Boldog is more than a relic — it carries a romantic national imagination: finding the whip and fixing the capital, the whip pointing east, the empire thus rising… These oral stories make the giant more human than any signboard. Three steppe legends below, as cultural amusement.",
+        "cards": [
+          {
+            "title": "Whip found, capital fixed",
+            "text": "Legend says Chinggis found the golden whip here; the shaman read the land as auspicious for the capital, and Karakorum indeed became the empire’s centre — the whip a symbol of “mandate of heaven.”"
+          },
+          {
+            "title": "Whip points east",
+            "text": "Folklore says the giant faces east precisely to echo the whip’s direction — Chinggis rising from the land of the rising sun; the whip’s shadow holds the empire’s origin and destiny."
+          },
+          {
+            "title": "The undying steppe",
+            "text": "Some say as long as the giant stands, the steppe empire’s story will not end. The stainless figure is seen as a symbol of “ambition that never rusts,” a wish for the land’s evergreen future."
+          }
+        ],
+        "academicNote": {
+          "title": "Content note",
+          "text": "The above are folk interpretations and symbolic readings from Mongolian tradition, not official history. Presented as cultural amusement to enrich the statue’s narrative; for rigorous history rely on on-site signs and official sources."
+        }
+      }
+    ],
+    "didYouKnow": {
+      "title": "Did you know?",
+      "text": "The Chinggis Khaan Statue Complex is more than a steel landmark — it is an open-air classroom of steppe memory and the Mongol Empire: from the golden-whip legend of Tsonjin Boldog and the stainless giant’s completion, to climbing the head over the Tuul River, land and people’s stories are written into the same steppe southeast of Ulaanbaatar."
+    }
+  },
+  "sitePlaques": {
+    "title": "Reading the On-site Plaques",
+    "subtitle": "When you visit, what is worth slow reading is often not the check-in board but the official signs explaining “why a giant stands on this steppe.”",
+    "locationLabel": "On-site location",
+    "intro": "The readings below are based on the site’s statue history, golden-whip legend, Nine Banners corridor and museum introductions, toponym notes and public-art guides — turning information visible but not necessarily read into understandable English popular science.",
+    "items": [
+      {
+        "id": "monument",
+        "badge": "Statue history board",
+        "title": "Chinggis Khaan Statue & Tsonjin Boldog",
+        "koTitle": "Чингис Хааны морин хөшөө",
+        "koTitleZh": "Chinggis Khaan Statue history",
+        "location": "Front of the square",
+        "body": "Such boards usually give the key background: the statue as a steppe gateway landmark and its tie to the Tsonjin Boldog golden-whip legend. Reading the hint is lesson one in using this national landmark."
+      },
+      {
+        "id": "signboard",
+        "badge": "Golden-whip legend guide (MN/EN)",
+        "title": "Tsonjin Boldog toponym & legend",
+        "koTitle": "Цонжин Болдог",
+        "koTitleZh": "Tsonjin Boldog guide",
+        "location": "Square entrance",
+        "body": "The guide repeats Tsonjin Boldog’s status as the auspicious capital site and reminds visitors: half the giant is cold stainless, half is centuries of steppe national memory. The board makes “why here” crystal clear."
+      },
+      {
+        "id": "wooden",
+        "badge": "Nine Banners corridor",
+        "title": "Nine Banners & Mongol insignia",
+        "koTitle": "Есөн хөлт морь",
+        "koTitleZh": "Nine Banners corridor",
+        "location": "Along the corridor",
+        "body": "The guide explains “why this land is historic.” Mongol imperial insignia overlap with the statue’s open space; read with the giant, the design logic is clear: national memory and visitor leisure coexist."
+      },
+      {
+        "id": "dongporu",
+        "badge": "Museum marker",
+        "title": "Base museum & public art",
+        "koTitle": "Музей",
+        "koTitleZh": "Museum guide",
+        "location": "Statue base",
+        "body": "Set by the site, marking the relationship between statue, public art and history education, echoing the “steppe empire” motif. It reminds every visitor: this steppe connects Mongolia’s warmest national memory with its clearest steppe experience."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "From the cold sheen of stainless steel and the steppe panorama atop the climb, to the fun of the boot café — the visual beauty of the Chinggis Khaan Statue Complex.",
+    "photoAlt": "Chinggis Khaan Statue Complex",
+    "photoAlts": [
+      "Full view of the statue — the 40 m stainless giant and steppe skyline.",
+      "Quiet empty square at dawn — best for slow shots of giant and Nine Banners.",
+      "The giant at golden dusk — most majestic in backlight.",
+      "The head viewpoint after climbing — overlook the Tuul River steppe.",
+      "Looking up from the square — giant framed with the high blue sky.",
+      "Base museum entrance — where history meets art.",
+      "Nine Banners corridor close-up — the line beauty of Mongol insignia.",
+      "The world’s largest boot-shaped café — fun for families.",
+      "Using the giant as a lead line — steppe and sky in one frame.",
+      "Horse-head detail — the texture of forged stainless steel.",
+      "A square side angle — one of the most photogenic spots.",
+      "Distant giant and Tuul River echoing each other.",
+      "Warm dusk light — golden glints along the metal surface.",
+      "Giant and steppe together — dawn to dusk is the best window.",
+      "Sculpture-themed scene echoing the steppe-empire theme.",
+      "High panorama — “statue–river–steppe” in one frame.",
+      "The giant lit at night — a silent steppe monument.",
+      "Warm-toned square — the public space embraced by the steppe.",
+      "Night-lit giant and paved square — a photographer’s golden combo.",
+      "First sunlight through clouds illuminating the horse head at dawn."
+    ],
+    "viewAll": "View location on Google Maps",
+    "showMore": "Show more photos",
+    "mapsUrl": "https://maps.app.goo.gl/iNBHqntxJc3M3wwp9"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback is available on Google Maps (external link).",
+    "featuredTitle": "Visitor Quotes",
+    "featuredSubtitle": "A few lines that best capture the statue’s character.",
+    "moreReviews": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/iNBHqntxJc3M3wwp9",
+    "featured": [
+      {
+        "text": "The moment I climbed to the horse head and overlooked the Tuul River steppe, I truly grasped “steppe empire” — at dusk the lights make it a rustless monument.",
+        "source": "Independent traveller · Ulaanbaatar"
+      },
+      {
+        "text": "The 40 m stainless giant is stunning, and the boot café is a hoot — Mongolia’s most underrated steppe gateway.",
+        "source": "Photographer · Beijing"
+      },
+      {
+        "text": "Walking the square slowly with my child, he listened to the golden-whip legend the whole way, and my elder walked easily.",
+        "source": "Family · Ulaanbaatar"
+      }
+    ],
+    "items": [
+      {
+        "name": "Баттулга",
+        "date": "May 2026",
+        "rating": 5,
+        "text": "Visited at dawn; the giant is gorgeous in backlight. Standing at the head, all fell silent — weekdays strongly recommended, fewest people and best light."
+      },
+      {
+        "name": "Оюун",
+        "date": "Apr 2026",
+        "rating": 5,
+        "text": "About 1 hour by car from Ulaanbaatar; the stainless shade is healing, and we caught a clear sunny day with superb steppe views."
+      },
+      {
+        "name": "Мөнх",
+        "date": "Mar 2026",
+        "rating": 4,
+        "text": "Worth it as a national landmark; weekends are crowded — weekdays or dawn are more comfortable."
+      },
+      {
+        "name": "Наран",
+        "date": "Feb 2026",
+        "rating": 5,
+        "text": "About 1 hour from the city to the statue; the steppe and Terelj along the way are relaxing — good for a half-day stroll."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Ulaanbaatar Chinggis Khaan Statue, ND - 5 khoroo, Nalaikh, Ulaanbaatar 12593, Mongolia (Plus Code: RG5H+7W) · Tel +976 70120202",
+    "openMaps": "Open in Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/iNBHqntxJc3M3wwp9"
+  },
+  "footer": {
+    "siteName": "Chinggis Khaan Statue Complex (Цонжин Болдог)",
+    "rights": "© 2026 Chinggis Khaan Statue Complex Guide — an independent non-profit attraction-info project. All rights reserved.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "So that every traveller who comes to Mongolia will not miss this stainless giant above the steppe, we gathered scattered official information into this guide — for the purest “look up, climb up, read the steppe empire” experience."
+    },
+    "legalLinksTitle": "Privacy & Terms",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official & Reference Resources",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/iNBHqntxJc3M3wwp9",
+    "officialLinksList": [
+      {
+        "name": "Mongolia Travel (Official National Tourism)",
+        "url": "https://www.mongolia.travel",
+        "operator": "Ministry of Environment and Tourism of Mongolia",
+        "desc": "The official national tourism portal of Mongolia, with the official scenic introduction, historical background and HD visual guide to the Chinggis Khaan Statue Complex (Tsonjin Boldog)."
+      },
+      {
+        "name": "Ministry of Environment and Tourism of Mongolia",
+        "url": "https://met.gov.mn",
+        "operator": "Government of Mongolia",
+        "desc": "The top national government department overseeing tourism development, site planning and environmental policy — extremely high government-domain authority."
+      },
+      {
+        "name": "Ulaanbaatar Tourism Department",
+        "url": "https://tourism.ub.gov.mn",
+        "operator": "Ulaanbaatar City Government",
+        "desc": "Official service platform of the Ulaanbaatar tourism department. Nalaikh District administratively belongs to the capital Ulaanbaatar; the site gives authoritative routes, day-tour planning and official travel advice."
+      },
+      {
+        "name": "Ulaanbaatar City Government",
+        "url": "https://www.ulaanbaatar.mn",
+        "operator": "Ulaanbaatar City Government",
+        "desc": "The higher-level local government portal for the statue’s administrative area, used to build localised geo association and administrative authority."
+      },
+      {
+        "name": "Official Portal of the Government of Mongolia",
+        "url": "https://mongolia.gov.mn",
+        "operator": "Government of Mongolia",
+        "desc": "The central government’s official unified public-service portal — a national top-level domain link, ideal as a baseline authority boost for the site’s trust score."
+      }
+    ],
+    "disclaimer": "This website is an independent non-profit attraction-info project, not affiliated with any government agency or official organisation.",
+    "dataSource": "Attraction information cited on this site is cross-checked against public materials from Mongolia Travel, the Ministry of Environment and Tourism, and the Ulaanbaatar Tourism Department, with no commercial endorsements.Core figures such as the statue’s weight (≈250 t), the complex area (≈212 ha) and construction cost (≈US$4.1 million) are cited from the site’s public interpretation and official notices.",
+    "dataSourceLabel": "Data Source · Data Source"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We do not normally actively collect users’ personal identifying information. Information provided via inquiry forms or email is strictly confidential."
+      },
+      {
+        "heading": "2. Information Use",
+        "content": "Collected information is used only to provide, maintain and improve the service and for communication; it is not sold or shared with third parties for marketing."
+      },
+      {
+        "heading": "3. Cookies & Tracking",
+        "content": "We use cookies and similar tracking technologies to record site activity and store information. You can set your browser to refuse all cookies or notify on sending."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "Data security matters. We take commercially reasonable measures, but internet transmission cannot be 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Agreement to Terms",
+        "content": "By accessing or using this site you agree to be bound by these terms. If you disagree with any part, do not use the site."
+      },
+      {
+        "heading": "2. Service Use",
+        "content": "This site is an independent non-profit attraction-info project. Information is for general reference; you agree to use it responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "Unless otherwise stated, all content is the property of its owner. Unauthorised use, reproduction or distribution is prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We are not liable for any direct, indirect, incidental or consequential damages from use or inability to use the site or its information."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "Required for basic site function.",
+      "badge": "Always on"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help understand visitor interaction."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to track visitors across sites."
+    },
+    "save": "Save settings",
+    "saved": "Settings saved!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Practical info on the Chinggis Khaan Statue Complex’s facilities, history and visit planning.",
+    "amenities": {
+      "title": "Nearby Services",
+      "items": [
+        {
+          "icon": "🅿️",
+          "label": "Parking",
+          "value": "Supporting car park (mostly paid)"
+        },
+        {
+          "icon": "🚻",
+          "label": "Restrooms",
+          "value": "Public restrooms at site & museum"
+        },
+        {
+          "icon": "🔌",
+          "label": "Fuel / Charge",
+          "value": "Few chargers, mostly in Ulaanbaatar"
+        },
+        {
+          "icon": "♿",
+          "label": "Accessibility",
+          "value": "Flat base and square accessible"
+        }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transport & Infrastructure",
+        "items": [
+          {
+            "q": "Is there parking near the statue? How much?",
+            "a": "The site has a supporting (mostly paid) car park within walking distance. Fills easily on weekends/holidays — arrive early or prefer car hire/day tour."
+          },
+          {
+            "q": "Are wheelchairs or strollers allowed?",
+            "a": "The base and square are flat; wheelchairs/strollers can use main routes. The head climb uses interior stairs and narrow paths — elders and young children should enjoy the ground level."
+          },
+          {
+            "q": "Are there restrooms or food supplies on site?",
+            "a": "As a ticketed site, restrooms and food concentrate at the base museum and boot café; bring water before entry."
+          },
+          {
+            "q": "Nearby fuel or EV charging?",
+            "a": "Few chargers on the steppe, mostly in Ulaanbaatar; self-drivers charge in the city first."
+          }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "History & Popular Science",
+        "items": [
+          {
+            "q": "What is the meaning of the name and facing?",
+            "a": "The statue shows Chinggis Khaan in armour reining his horse — equestrian rather than standing to emphasise “a world on horseback”; it faces east, the direction of his birth."
+          },
+          {
+            "q": "What makes its nature and culture special?",
+            "a": "Not a theme park, but a national landmark fusing steppe gateway, national memory, museum and public art; the stainless giant, Nine Banners and Tuul River form a low-impact, high-resonance steppe classroom."
+          }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planning & Entry",
+        "items": [
+          {
+            "q": "Is a ticket needed?",
+            "a": "The site is ticketed; the head climb and museum are usually included or need separate booking — check the box office and official notice."
+          },
+          {
+            "q": "How long does a visit take?",
+            "a": "Usually ~2–3 hours (square, climb, museum); with Terelj, plan half a day or more."
+          },
+          {
+            "q": "Can I go in bad weather?",
+            "a": "Yes — open space any weather. But wet paths are slippery and winters severe; bring wind/cold protection and check the day’s opening."
+          }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "Nearby Links",
+        "items": [
+          {
+            "q": "Where to go after visiting?",
+            "a": "From the statue you can continue to Gorkhi-Terelj National Park, stringing giant, steppe, forest and rock art into a complete half-day steppe package."
+          },
+          {
+            "q": "What is there at Gorkhi-Terelj National Park?",
+            "a": "About 30 minutes from the statue, it is famed for alpine steppe scenery, rock climbing and traditional nomadic ger camps — the natural highlight most often paired with the statue."
+          },
+          {
+            "q": "What is Turtle Rock (Melkhii Khad)?",
+            "a": "About 40 minutes away, it is a giant natural granite formation shaped like a turtle, an iconic landmark of the Terelj area and a favourite photo stop."
+          },
+          {
+            "q": "Is Aryabal Meditation Temple worth it?",
+            "a": "About 50 minutes away, this serene Buddhist temple backs onto steep mountains; reaching the main complex means climbing 108 steps symbolising an elephant's trunk — ideal for travellers seeking quiet and culture."
+          }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "More of Mongolia",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Experiences",
+    "attractions": [
+      {
+        "name": "Mongolia Travel (National Tourism)",
+        "url": "https://www.mongolia.travel"
+      },
+      {
+        "name": "Ministry of Environment and Tourism (MET)",
+        "url": "https://met.gov.mn"
+      },
+      {
+        "name": "Ulaanbaatar Tourism Department",
+        "url": "https://tourism.ub.gov.mn"
+      },
+      {
+        "name": "Ulaanbaatar City Government",
+        "url": "https://www.ulaanbaatar.mn"
+      },
+      {
+        "name": "Government of Mongolia Portal",
+        "url": "https://mongolia.gov.mn"
+      }
+    ],
+    "tours": [
+      {
+        "name": "Mongolia Travel",
+        "url": "https://www.mongolia.travel"
+      },
+      {
+        "name": "Ulaanbaatar Tourism Department",
+        "url": "https://tourism.ub.gov.mn"
+      },
+      {
+        "name": "Ministry of Environment and Tourism (MET)",
+        "url": "https://met.gov.mn"
+      }
+    ]
+  },
+  "scienceArt": {
+    "title": "Giant & Steppe: Horse Head, Nine Banners & Public Art",
+    "subtitle": "One layer beneath the surface “spectacle” reveals why this giant is truly rare: it is at once a steppe landmark, a vessel of national memory, and a wall-less open-air history classroom.",
+    "scienceMuseum": {
+      "name": "Golden-whip legend & Tsonjin Boldog",
+      "role": "A time-space story hidden in a toponym",
+      "highlight": "The statue’s firmest core is both seen and unseen. Seen: the stainless giant and Nine Banners corridor. Unseen: the narrative of Chinggis finding the whip and fixing the capital, and the Mongolian national memory. Visitors see a landscape; the nostalgic see the steppe empire’s text left on this land.",
+      "points": [
+        "Core: golden-whip legend · Nine Banners symbols · steppe memory uphold the landmark.",
+        "Clue: public steppe space turned into a low-impact, high-resonance history classroom.",
+        "Meaning: elevate “steppe gateway” into a nationally revered pilgrimage sample."
+      ],
+      "ctaLabel": "View Mongolia Travel ↗",
+      "ctaUrl": "https://www.mongolia.travel"
+    },
+    "artMuseum": {
+      "name": "National symbols in sculpture",
+      "role": "Cultural symbol of the Chinggis Khaan Statue Complex",
+      "highlight": "The stainless giant, Nine Banners corridor and steppe together form the complex’s identity system, readable at a glance as belonging to Mongolia and the steppe-empire narrative. From the horse-head vista to the boot café, the contrast of cold metal and warm green steppe is among Mongolia’s most memorable national images.",
+      "points": [
+        "Image: giant · Nine Banners · steppe give extremely strong recognition.",
+        "Status: among Mongolia’s most symbolically national cultural landmarks.",
+        "Narrative: successfully translates the steppe-empire theme into a publicly felt aesthetic."
+      ],
+      "ctaLabel": "View Ulaanbaatar Tourism ↗",
+      "ctaUrl": "https://tourism.ub.gov.mn"
+    }
+  },
+  "outdoorMuseum": {
+    "title": "Photography & Check-in Guide: Statue Photo Spots",
+    "subtitle": "As Mongolia’s most recognisable steppe cultural landmark, a few structured spots and times greatly lift your photo composition and feel.",
+    "items": [
+      {
+        "id": "sunrise",
+        "icon": "🌅",
+        "name": "Square front · full giant",
+        "location": "Centre of the square",
+        "background": "From dawn to dusk, the giant as foreground and steppe skyline as background is the classic “statue–sky–steppe” frame; the horse silhouette is most moving in backlight.",
+        "points": [
+          "Use the giant as a centre line toward sky and steppe.",
+          "Low-angle upward shot stabilises layers."
+        ],
+        "badge": {
+          "value": "Dawn",
+          "label": "Best shots"
+        }
+      },
+      {
+        "id": "bridge",
+        "icon": "🐎",
+        "name": "Horse head · steppe panorama",
+        "location": "Head viewpoint",
+        "background": "From the head viewpoint, frame “giant–Tuul River–steppe” together — the best vantage to grasp the steppe empire’s scale.",
+        "points": [
+          "Softest steppe texture in dawn diffuse light.",
+          "Mind your step and companions; do not tread rail zones."
+        ],
+        "badge": {
+          "value": "All day",
+          "label": "Most tension"
+        }
+      },
+      {
+        "id": "sea",
+        "icon": "🏛️",
+        "name": "Nine Banners corridor",
+        "location": "Along the corridor",
+        "background": "The lines of the Nine Banners (horse-tail flags) echo the stainless giant; with the steppe backdrop, the human imagination is richer.",
+        "points": [
+          "Blue-hour shots balance sky and steppe colours best.",
+          "Use the corridor lines as lead, leave a soothing steppe skyline."
+        ],
+        "badge": {
+          "value": "All seasons",
+          "label": "Strongest mood"
+        }
+      },
+      {
+        "id": "night",
+        "icon": "🌃",
+        "name": "Night lights",
+        "location": "Square toward the head",
+        "background": "After dark the giant is lit, echoing the steppe starry sky — great for long-exposure night scenes and silhouettes.",
+        "points": [
+          "Use the lights as a lead line toward the distance.",
+          "Higher ISO or stabilised gear for night detail."
+        ],
+        "badge": {
+          "value": "Night",
+          "label": "Best layers"
+        }
+      }
+    ]
+  },
+  "education": {
+    "title": "Why is this a steppe gateway landmark?",
+    "subtitle": "What is most worth learning is not “it is tall” but how it reshaped a steppe gateway into shared national memory while preserving awe for land and history in the visit.",
+    "points": [
+      {
+        "title": "Still a public steppe living room",
+        "text": "The complex does not “hide the steppe and end” but sustains steppe memory through public-space design, turning awe, climbing and study into a shared place.",
+        "items": [
+          "Travellers’ daily awe, family outings and study gather at this giant and steppe.",
+          "Public space and steppe landscape coexist long-term."
+        ]
+      },
+      {
+        "title": "Memory ethics in visitor behaviour",
+        "text": "Signs, the Nine Banners corridor and guides do more than direct — they naturally lead visitors to respect public environment and land during use.",
+        "items": [
+          "Visitors are guided to stay within low-impact routes.",
+          "Landscape experience and public life do not sacrifice each other."
+        ]
+      },
+      {
+        "title": "Steppe memory as public aesthetics",
+        "text": "The complex does not erase the steppe background but, through giant, Nine Banners and guides, lets visitors feel what the land has undergone.",
+        "items": [
+          "Story layers and landscape experience complete in one place.",
+          "Exactly the value a non-profit science site should amplify."
+        ]
+      }
+    ]
+  },
+  "plantGuide": {
+    "title": "Tuul River Steppe Seasonal Calendar",
+    "subtitle": "One layer beneath the surface “spectacular green” reveals why the complex is truly rare: it turns a steppe gateway into an open-air natural classroom that changes with the seasons.",
+    "comparison": [
+      {
+        "icon": "🌳",
+        "badge": "Spring–Summer green",
+        "name": "Steppe & new green",
+        "summary": "Spring–summer is the lushest season at the complex. By the Tuul River the grass is rich; the giant outlines the freshest national silhouette on the open steppe.",
+        "points": [
+          "May–Aug best grass colour, endless meadows.",
+          "Giant reflection vs steppe gives strongest contrast.",
+          "With Nine Banners corridor, most summer vitality."
+        ]
+      },
+      {
+        "icon": "🍂",
+        "badge": "Autumn–Winter colour",
+        "name": "Golden grass & first snow",
+        "summary": "Autumn–winter is the most storied season. Grass turns gold, first snow occasional, weaving with Ulaanbaatar’s vast sky into a gold-and-silver palette.",
+        "points": [
+          "Sep–Nov grass golden, steppe gilded.",
+          "First snow on the base, most solemn.",
+          "Dusk light softest, highest shot rate."
+        ]
+      }
+    ],
+    "seasonTitle": "Four-season highlights",
+    "seasonSubtitle": "One steppe, four temperaments. The most anticipated green and landscape of the complex by season.",
+    "seasons": [
+      {
+        "icon": "🌱",
+        "badge": "SPRING",
+        "name": "Spring · new green & melt",
+        "summary": "Temperature rises, steppe greens anew — the best season for slow walks and dawn photography.",
+        "highlights": [
+          "Fresh new leaves, tender green.",
+          "Fewer people on the square, softest light.",
+          "Dewy dawn grass, freshest contrast."
+        ]
+      },
+      {
+        "icon": "🌿",
+        "badge": "SUMMER",
+        "name": "Summer · deep green",
+        "summary": "Midsummer green at its deepest; the giant stands amid it — good for cool walks and family outings.",
+        "highlights": [
+          "Shade of the corridor, most comfortable.",
+          "Avoid midday sun at dawn/dusk.",
+          "Museum and café for cooling off."
+        ]
+      },
+      {
+        "icon": "🍁",
+        "badge": "AUTUMN",
+        "name": "Autumn · golden grass",
+        "summary": "The most storied season — grass turns gold, first snow near, with the giant in a golden palette.",
+        "highlights": [
+          "Golden grass, gilded steppe.",
+          "First snow on the base, solemn.",
+          "Dusk light softest, highest shot rate."
+        ]
+      },
+      {
+        "icon": "❄️",
+        "badge": "WINTER",
+        "name": "Winter · silent snowfield",
+        "summary": "After snow the steppe is open and silent; the giant and sky form a cold, solemn winter landscape.",
+        "highlights": [
+          "Clear lines on the square after snow.",
+          "Golden ground at clear dawn, good for slow shots.",
+          "Mind cold-proofing and steppe wind gaps."
+        ]
+      }
+    ]
+  },
+  "audience": {
+    "title": "Who is it for? Turn segmented guides into custom routes",
+    "subtitle": "Not just “you will like it” but directly tell how to walk, where to start, and which Mongolian node to link.",
+    "resonanceLabel": "Resonance: ",
+    "routeLabel": "Recommended module: ",
+    "tipLabel": "Tip: ",
+    "items": [
+      {
+        "icon": "👨‍👩‍👧",
+        "group": "Families",
+        "resonance": "Open flat square and museum; kids see the giant and hear the golden-whip legend, elders stroll the ground level most easily.",
+        "tip": "Spend energy first on the square and museum, not on the head-queue."
+      },
+      {
+        "icon": "📷",
+        "group": "Photographers & couples",
+        "resonance": "Dawn and dusk backlight are Mongolia’s most majestic frames, with very high shot rates.",
+        "tip": "Calculate arrival, return and light together so composition keeps up with the live rhythm."
+      },
+      {
+        "icon": "🎭",
+        "group": "History & culture lovers",
+        "resonance": "As an open-air sample of the steppe empire, the Nine Banners corridor, museum and golden-whip legend are worth slow reading.",
+        "tip": "Avoid the busiest weekends; choose dawn or weekday afternoons for detail."
+      },
+      {
+        "icon": "🗺️",
+        "group": "First-time visitors",
+        "resonance": "Without going far to the suburbs, feel Mongol Empire culture and steppe landscape near Ulaanbaatar — the ideal starting point for the “steppe and empire” theme.",
+        "tip": "If choosing only one Ulaanbaatar suburb landmark, the statue best fits the first lesson of “steppe and nation.”"
+      }
+    ]
+  },
+  "lodging": {
+    "title": "Lodging Guide: nearby, or convenient",
+    "subtitle": "Ulaanbaatar is a city where “ancient capital, capital, steppe gateway” coexist. We do not recommend specific hotels but analyse two lodging patterns to help you choose.",
+    "scenarioTitle": "Two options, how to choose",
+    "options": [
+      {
+        "icon": "🏕️",
+        "name": "Site / Nalaikh outskirts",
+        "role": "Closest to giant & steppe",
+        "highlight": "Staying in Nalaikh or the outskirts lets you reach the square and Nine Banners at dawn, saving the best light for the giant — for “steppe + summit” travellers.",
+        "commute": "Commute: ~20–60 min to the site; good for those wanting off-peak dawn light.",
+        "points": [
+          "Closest to the giant, most relaxed dawn light.",
+          "Fewer supplies nearby, plan meals ahead.",
+          "Good for self-drive or car hire."
+        ]
+      },
+      {
+        "icon": "🏙️",
+        "name": "Ulaanbaatar city",
+        "role": "Best for dining & hub",
+        "highlight": "Staying in the city near Chinggis Khaan International Airport, commercial areas and dining; by day car hire or day tour east ~1 hour to the statue — for “city + steppe” travellers.",
+        "commute": "Commute: ~1 hour city to site; for independent travellers wanting convenience and dining.",
+        "points": [
+          "Rich commercial areas and dining.",
+          "More hotel choices, usually better value.",
+          "City to statue ~1 hour, car hire easiest."
+        ]
+      }
+    ],
+    "peakTitle": "Peak-season alert",
+    "peak": "In Mongolia’s summer (Jun–Aug) and peak season, plus clear weekend weather, rooms tighten and prices rise with tourist influx — book weeks ahead. Near holidays widen your range and shuttle from the city.",
+    "tipsTitle": "Lodging tips",
+    "tips": [
+      "Want dawn giant and steppe? Prefer Nalaikh outskirts, dash to the square at dawn.",
+      "Value convenience and dining? Choose Ulaanbaatar city, walk and dine at hand.",
+      "Before booking, confirm breakfast, parking (key for self-drive).",
+      "Peak season and holidays — plan ahead to avoid no-room or high prices."
+    ]
+  },
+  "downloads": {
+    "title": "Academic & Practical Downloads",
+    "items": [
+      {
+        "icon": "📘",
+        "name": "Chinggis Khaan Statue Complex cultural guide map.pdf",
+        "desc": "Detailed site terrain and public facilities",
+        "url": "#"
+      },
+      {
+        "icon": "📘",
+        "name": "Tsonjin Boldog golden-whip legend & history map.pdf",
+        "desc": "Steppe-empire science and legend distribution",
+        "url": "#"
+      },
+      {
+        "icon": "🗺️",
+        "name": "GPX track file download",
+        "desc": "Import into phone navigation for walking & steppe slow travel",
+        "url": "#"
+      }
+    ]
+  },
+  "audioPlayer": {
+    "cta": "Click here to hear the steppe wind and the morin khuur",
+    "title": "The Wind and Morin Khuur of the Steppe"
+  },
+  "timeline": {
+    "title": "From the Golden Whip Legend to a Steppe Landmark: A Timeline of the Chinggis Khaan Statue",
+    "subtitle": "An eight-century story — from Temüjin’s lucky find of a golden whip to the monument raised for the 800th anniversary of the Mongol Empire.",
+    "items": [
+      {
+        "year": "1177",
+        "title": "The Golden Whip Legend",
+        "icon": "🏇",
+        "desc": "On his way home after meeting Toghrul Khan, the young Temüjin (later Chinggis Khaan) found a golden whip at Tsonjin Boldog — seen as an auspicious omen of his future conquests."
+      },
+      {
+        "year": "1206",
+        "title": "Founding of the Mongol Empire",
+        "icon": "👑",
+        "desc": "Temüjin was proclaimed “Chinggis Khaan” and unified the steppe tribes into the Mongol Empire — the very event whose 800th anniversary the 2008 statue commemorates."
+      },
+      {
+        "year": "2008",
+        "title": "The Statue Completed",
+        "icon": "🏗️",
+        "desc": "Funded by Genco Tourism and designed by sculptor D. Erdenebileg with architect J. Enkhjargal, the 40-metre monument was completed at a cost of about US$4.1 million."
+      },
+      {
+        "year": "Today",
+        "title": "Symbol of National Identity",
+        "icon": "🌍",
+        "desc": "Today it stands as a symbol of Mongolian identity and the world’s tallest equestrian statue, welcoming visitors from across the globe."
+      }
+    ]
+  }
+}

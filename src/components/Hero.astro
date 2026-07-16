@@ -1,0 +1,438 @@
+---
+import { getI18n } from '../i18n/ui';
+const { messages } = getI18n(Astro.url);
+const h = messages.hero;
+const facts = h.quickFacts ?? [];
+const factsSource = h.factsSource ?? {};
+const live = h.liveInfo ?? {};
+const planner = h.sunsetPlanner ?? {};
+---
+
+<section id="overview" class="relative min-h-[84vh] sm:min-h-[90vh] flex items-center justify-center text-center overflow-hidden">
+  <div class="absolute inset-0" style={`background-image: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.62)), url('/gallery/chinggis-khaan-statue-complex-1.jpg'); background-size: cover; background-position: center;`}></div>
+  <div class="relative z-10 px-4 sm:px-6 py-16 sm:py-20 max-w-4xl w-full animate-fade-in-up">
+    <span class="inline-flex max-w-full flex-wrap items-center justify-center gap-1 px-3 py-1 mb-5 rounded-full text-xs sm:text-sm font-medium" style="background: rgba(255,255,255,0.15); color: #fff; backdrop-filter: blur(4px);">
+      ⭐ {h.rating} · {h.reviewCount}
+    </span>
+
+    <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4">
+      {h.title}
+    </h1>
+
+    <p class="text-sm sm:text-lg text-white/90 mb-7 max-w-2xl mx-auto leading-relaxed">
+      {h.subtitle}
+    </p>
+
+    <!-- Key facts as icon cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-2xl mx-auto mb-6">
+      {facts.map((f) => (
+        <div class="hero-fact">
+          <span class="hero-fact-icon" aria-hidden="true">{f.icon}</span>
+          <span class="hero-fact-label">{f.label}</span>
+          <span class="hero-fact-value">{f.value}</span>
+        </div>
+      ))}
+    </div>
+
+    <!-- Prominent practical info bar (hours & admission) -->
+    {h.practicalInfo && (
+      <div class="hero-practical-bar" role="note" aria-label={h.practicalInfo.ariaLabel}>
+        <div class="hero-practical-item">
+          <span class="hero-practical-icon" aria-hidden="true">{h.practicalInfo.clockIcon}</span>
+          <div class="hero-practical-text">
+            <span class="hero-practical-label">{h.practicalInfo.hoursLabel}</span>
+            <span class="hero-practical-value">{h.practicalInfo.hoursValue}</span>
+            <span class="hero-practical-note">{h.practicalInfo.hoursNote}</span>
+          </div>
+        </div>
+        <div class="hero-practical-divider" aria-hidden="true"></div>
+        <div class="hero-practical-item">
+          <span class="hero-practical-icon" aria-hidden="true">{h.practicalInfo.ticketIcon}</span>
+          <div class="hero-practical-text">
+            <span class="hero-practical-label">{h.practicalInfo.admissionLabel}</span>
+            <span class="hero-practical-value">{h.practicalInfo.admissionValue}</span>
+            <span class="hero-practical-note">{h.practicalInfo.admissionNote}</span>
+          </div>
+        </div>
+      </div>
+    )}
+
+    {factsSource.url && (
+      <p class="mt-3 text-xs text-white/70">
+        🔗 <a href={factsSource.url} target="_blank" rel="noopener noreferrer" class="underline decoration-white/40 underline-offset-2 hover:text-white">{factsSource.label}</a>
+      </p>
+    )}
+
+    <!-- Live data widget -->
+    <div class="flex justify-center mb-6">
+      <div class="inline-flex items-center gap-4 px-5 py-2.5 rounded-full" style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(8px);">
+        <div class="flex items-center gap-2 text-sm text-white/90">
+          <span class="text-base">🌤️</span> 
+          <span>{live.weather}</span>
+          <span id="current-weather" class="font-medium">—</span>
+        </div>
+        <div class="w-px h-4 bg-white/20"></div>
+        <div class="flex items-center gap-2 text-sm text-white/90">
+          <span class="text-base">🌅</span> 
+          <span>{live.sunset}</span>
+          <span id="sunset-time" class="font-medium">—</span>
+        </div>
+      </div>
+    </div>
+
+    {h.legend && h.legend.quote && (
+      <blockquote class="hero-legend" aria-label={h.legend.attribution}>
+        <span class="hero-legend-mark" aria-hidden="true">“</span>
+        <p class="hero-legend-text">{h.legend.quote}</p>
+        <cite class="hero-legend-cite">{h.legend.attribution}</cite>
+      </blockquote>
+    )}
+
+    <!-- Audio Player Interactive Widget -->
+    {messages.audioPlayer && (
+      <div class="max-w-md mx-auto mb-7 rounded-2xl p-4 text-left group cursor-pointer transition-transform hover:scale-[1.02]" style="background: rgba(15,32,21,0.4); border: 1px solid rgba(255,255,255,0.15); backdrop-filter: blur(12px);" onclick="const audio = document.getElementById('chinggis-audio'); if(audio.paused){audio.play(); this.querySelector('.play-icon').textContent='⏸️'}else{audio.pause(); this.querySelector('.play-icon').textContent='▶️'}">
+        <div class="flex items-center gap-4">
+          <div class="w-12 h-12 rounded-full flex items-center justify-center shrink-0" style="background: var(--accent);">
+            <span class="play-icon text-white text-xl ml-1">▶️</span>
+          </div>
+          <div>
+            <p class="text-xs uppercase tracking-[0.1em] text-white/70 mb-1">{messages.audioPlayer.cta}</p>
+            <p class="text-sm font-semibold text-white">{messages.audioPlayer.title}</p>
+          </div>
+        </div>
+        <audio id="chinggis-audio" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" preload="none"></audio>
+      </div>
+    )}
+
+    {planner.title && (
+      <div class="max-w-3xl mx-auto mb-7 rounded-3xl border p-4 sm:p-5 text-left" style="background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.2); backdrop-filter: blur(10px);">
+        <div class="flex flex-col lg:flex-row gap-4 lg:items-center lg:justify-between">
+          <div class="min-w-0">
+            {planner.eyebrow && (
+              <p class="text-xs uppercase tracking-[0.22em] mb-2 text-white/70">{planner.eyebrow}</p>
+            )}
+            <p class="text-base sm:text-lg font-semibold text-white">{planner.title}</p>
+            {planner.note && <p class="text-sm sm:text-base mt-2 text-white/80 leading-relaxed">{planner.note}</p>}
+            {planner.seaGlare && (
+              <p class="text-xs sm:text-sm mt-3 pt-3 text-white/75 leading-relaxed border-t" style="border-color: rgba(255,255,255,0.18);">
+                🌊 {planner.seaGlare}
+              </p>
+            )}
+            <svg class="mt-3 w-full h-10" viewBox="0 0 320 40" preserveAspectRatio="none" aria-hidden="true" style="display:block;">
+              <defs>
+                <linearGradient id="lightWave" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#7fb2d6"/>
+                  <stop offset="35%" stop-color="#f4d58a"/>
+                  <stop offset="60%" stop-color="#f0a85a"/>
+                  <stop offset="80%" stop-color="#9a6ddb"/>
+                  <stop offset="100%" stop-color="#2b3a6b"/>
+                </linearGradient>
+              </defs>
+              <path d="M0,34 C40,34 60,30 110,18 C150,9 175,7 200,12 C230,18 260,30 320,33" fill="none" stroke="url(#lightWave)" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="200" cy="12" r="3.5" fill="#fff"/>
+            </svg>
+            {planner.lightCaption && <p class="text-[10px] uppercase tracking-[0.18em] mt-1 text-white/55">{planner.lightCaption}</p>}
+            <div class="mt-3 flex items-center gap-2.5">
+              <span id="light-dot" class="light-dot" aria-hidden="true"></span>
+              <span id="light-status" class="text-xs font-medium text-white/90">{planner.lightStatusHint}</span>
+            </div>
+            <div class="mt-2 flex items-center gap-2.5">
+              <span id="countdown-label" class="text-xs text-white/70">{planner.countdownHint}</span>
+              <span id="countdown-time" class="text-base font-semibold text-white tabular-nums tracking-wide">--:--:--</span>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-3 shrink-0">
+            <div class="rounded-2xl px-4 py-3" style="background: rgba(15,32,21,0.28);">
+              <p class="text-xs uppercase tracking-[0.18em] text-white/65">{planner.arriveLabel}</p>
+              <p id="sunset-arrive-time" class="text-xl font-semibold text-white mt-1">—</p>
+            </div>
+            <div class="rounded-2xl px-4 py-3" style="background: rgba(15,32,21,0.28);">
+              <p class="text-xs uppercase tracking-[0.18em] text-white/65">{planner.blueHourLabel}</p>
+              <p id="blue-hour-window" class="text-xl font-semibold text-white mt-1">—</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- Strong contrasting CTAs -->
+    <div class="flex flex-col sm:flex-row gap-3 justify-center">
+      <a href={h.navCta.href} class="btn-cta btn-cta-primary">
+        {h.navCta.label}
+      </a>
+      <a href={h.photoCta.href} class="btn-cta btn-cta-secondary">
+        {h.photoCta.label}
+      </a>
+    </div>
+
+    <div class="mt-5">
+      <a href={h.mapsUrl} target="_blank" rel="noopener noreferrer" class="hero-maps-link">
+        {h.openMaps}
+      </a>
+    </div>
+  </div>
+
+  <script is:inline>
+    (function () {
+      var weatherEl = document.getElementById('current-weather');
+      var sunsetEl = document.getElementById('sunset-time');
+      var arriveEl = document.getElementById('sunset-arrive-time');
+      var blueHourEl = document.getElementById('blue-hour-window');
+      var sunsetDateGlobal = null;
+      if (!weatherEl || !sunsetEl) return;
+
+      var url =
+        'https://api.open-meteo.com/v1/forecast?latitude=47.8089&longitude=107.5292&current=temperature_2m,weather_code&daily=sunset&timezone=Asia/Ulaanbaatar';
+
+      function weatherText(code, lang) {
+        if (lang === 'ja') {
+          if (code === 0) return '晴れ';
+          if (code === 1) return '晴れ時々';
+          if (code === 2) return 'くもり';
+          if (code === 3) return '曇り';
+          if (code === 45 || code === 48) return '霧';
+          if (code === 51 || code === 53 || code === 55) return '霧雨';
+          if (code === 56 || code === 57) return '凍雨（霧雨）';
+          if (code === 61 || code === 63 || code === 65) return '雨';
+          if (code === 66 || code === 67) return '凍雨';
+          if (code === 71 || code === 73 || code === 75) return '雪';
+          if (code === 77) return '霰';
+          if (code === 80 || code === 81 || code === 82) return 'にわか雨';
+          if (code === 85 || code === 86) return 'にわか雪';
+          if (code === 95) return '雷雨';
+          if (code === 96 || code === 99) return '激しい雷雨';
+          return '不明';
+        }
+        if (lang === 'ko') {
+          if (code === 0) return '맑음';
+          if (code === 1) return '대체로 맑음';
+          if (code === 2) return '구름 많음';
+          if (code === 3) return '흐림';
+          if (code === 45 || code === 48) return '안개';
+          if (code === 51 || code === 53 || code === 55) return '이슬비';
+          if (code === 56 || code === 57) return '어는 이슬비';
+          if (code === 61 || code === 63 || code === 65) return '비';
+          if (code === 66 || code === 67) return '어는 비';
+          if (code === 71 || code === 73 || code === 75) return '눈';
+          if (code === 77) return '싸락눈';
+          if (code === 80 || code === 81 || code === 82) return '소나기';
+          if (code === 85 || code === 86) return '소낙눈';
+          if (code === 95) return '뇌우';
+          if (code === 96 || code === 99) return '강한 뇌우';
+          return '알 수 없음';
+        }
+        if (lang === 'en') {
+          if (code === 0) return 'Clear';
+          if (code === 1) return 'Mainly clear';
+          if (code === 2) return 'Partly cloudy';
+          if (code === 3) return 'Overcast';
+          if (code === 45 || code === 48) return 'Fog';
+          if (code === 51 || code === 53 || code === 55) return 'Drizzle';
+          if (code === 56 || code === 57) return 'Freezing drizzle';
+          if (code === 61 || code === 63 || code === 65) return 'Rain';
+          if (code === 66 || code === 67) return 'Freezing rain';
+          if (code === 71 || code === 73 || code === 75) return 'Snow';
+          if (code === 77) return 'Snow grains';
+          if (code === 80 || code === 81 || code === 82) return 'Rain showers';
+          if (code === 85 || code === 86) return 'Snow showers';
+          if (code === 95) return 'Thunderstorm';
+          if (code === 96 || code === 99) return 'Severe thunderstorm';
+          return 'Unknown';
+        }
+        if (lang === 'mn') {
+          if (code === 0) return 'Тунгалаг';
+          if (code === 1) return 'Илт тунгалаг';
+          if (code === 2) return 'Үүлшсэн';
+          if (code === 3) return 'Үүлт';
+          if (code === 45 || code === 48) return 'Манан';
+          if (code === 51 || code === 53 || code === 55) return 'Найрай';
+          if (code === 56 || code === 57) return 'Хөлдөн найрай';
+          if (code === 61 || code === 63 || code === 65) return 'Хур тунадас';
+          if (code === 66 || code === 67) return 'Хөлдөн хур';
+          if (code === 71 || code === 73 || code === 75) return 'Цас';
+          if (code === 77) return 'Цасан ширхэг';
+          if (code === 80 || code === 81 || code === 82) return 'Хур бороо';
+          if (code === 85 || code === 86) return 'Цасан шуурга';
+          if (code === 95) return 'Дулай аадар';
+          if (code === 96 || code === 99) return 'Хүчтэй аадар';
+          return 'Тодорхойгүй';
+        }
+        if (lang === 'ru') {
+          if (code === 0) return 'Ясно';
+          if (code === 1) return 'Преимущественно ясно';
+          if (code === 2) return 'Переменная облачность';
+          if (code === 3) return 'Пасмурно';
+          if (code === 45 || code === 48) return 'Туман';
+          if (code === 51 || code === 53 || code === 55) return 'Морось';
+          if (code === 56 || code === 57) return 'Ледяная морось';
+          if (code === 61 || code === 63 || code === 65) return 'Дождь';
+          if (code === 66 || code === 67) return 'Ледяной дождь';
+          if (code === 71 || code === 73 || code === 75) return 'Снег';
+          if (code === 77) return 'Снежная крупа';
+          if (code === 80 || code === 81 || code === 82) return 'Ливень';
+          if (code === 85 || code === 86) return 'Снегопад';
+          if (code === 95) return 'Гроза';
+          if (code === 96 || code === 99) return 'Сильная гроза';
+          return 'Неизвестно';
+        }
+        if (code === 0) return '晴';
+        if (code === 1) return '大部晴朗';
+        if (code === 2) return '多云';
+        if (code === 3) return '阴';
+        if (code === 45 || code === 48) return '雾';
+        if (code === 51 || code === 53 || code === 55) return '毛毛雨';
+        if (code === 56 || code === 57) return '冻毛毛雨';
+        if (code === 61 || code === 63 || code === 65) return '雨';
+        if (code === 66 || code === 67) return '冻雨';
+        if (code === 71 || code === 73 || code === 75) return '雪';
+        if (code === 77) return '米雪';
+        if (code === 80 || code === 81 || code === 82) return '阵雨';
+        if (code === 85 || code === 86) return '阵雪';
+        if (code === 95) return '雷暴';
+        if (code === 96 || code === 99) return '强雷暴';
+        return '未知天气';
+      }
+
+      function formatSunsetHHMM(isoLike) {
+        if (!isoLike || typeof isoLike !== 'string') return '—';
+        var tIndex = isoLike.indexOf('T');
+        if (tIndex === -1) return '—';
+        return isoLike.slice(tIndex + 1, tIndex + 6) || '—';
+      }
+
+      function formatClock(date) {
+        if (!(date instanceof Date) || isNaN(date.getTime())) return '—';
+        var hours = String(date.getHours()).padStart(2, '0');
+        var minutes = String(date.getMinutes()).padStart(2, '0');
+        return hours + ':' + minutes;
+      }
+
+      function parseIsoLike(isoLike) {
+        if (!isoLike || typeof isoLike !== 'string') return null;
+        var parsed = new Date(isoLike);
+        return isNaN(parsed.getTime()) ? null : parsed;
+      }
+
+      function setPlannerFallback() {
+        if (arriveEl) arriveEl.textContent = '—';
+        if (blueHourEl) blueHourEl.textContent = '—';
+      }
+
+      function setLoading() {
+        var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+        var msg = '数据获取中...';
+        if (lang.indexOf('ja') === 0) msg = '取得中...';
+        else if (lang.indexOf('ko') === 0) msg = '불러오는 중...';
+        else if (lang.indexOf('en') === 0) msg = 'Loading...';
+        else if (lang.indexOf('mn') === 0) msg = 'Ачаалж байна...';
+        else if (lang.indexOf('ru') === 0) msg = 'Загрузка...';
+        weatherEl.textContent = msg;
+        sunsetEl.textContent = msg;
+      }
+
+      function setFallback() {
+        weatherEl.textContent = '—';
+        sunsetEl.textContent = '—';
+        setPlannerFallback();
+      }
+
+      function updateCountdown() {
+        var labelEl = document.getElementById('countdown-label');
+        var timeEl = document.getElementById('countdown-time');
+        if (!labelEl || !timeEl) return;
+        var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+        var prefix = { zh: '距黄金时刻', en: 'Until golden hour', ja: 'ゴールデンアワーまで', ko: '골든아워까지', mn: 'Алтан цаг хүртэл', ru: 'До золотого часа', fallback: 'Until golden hour' };
+        var done = { zh: '黄金时刻已落幕', en: 'Golden hour has ended', ja: 'ゴールデンアワー終了', ko: '골든아워 종료', mn: 'Алтан цаг дууссан', ru: 'Золотой час завершён', fallback: 'Golden hour has ended' };
+        function pick(o) { return o[lang] || o[lang.slice(0, 2)] || o.fallback; }
+        if (!sunsetDateGlobal) {
+          labelEl.textContent = pick(prefix);
+          timeEl.textContent = '--:--:--';
+          return;
+        }
+        var diffMs = sunsetDateGlobal.getTime() - new Date().getTime();
+        if (diffMs <= 0) {
+          labelEl.textContent = pick(done);
+          timeEl.textContent = '00:00:00';
+          return;
+        }
+        var totalSec = Math.floor(diffMs / 1000);
+        var hh = String(Math.floor(totalSec / 3600)).padStart(2, '0');
+        var mm = String(Math.floor((totalSec % 3600) / 60)).padStart(2, '0');
+        var ss = String(totalSec % 60).padStart(2, '0');
+        labelEl.textContent = pick(prefix);
+        timeEl.textContent = hh + ':' + mm + ':' + ss;
+      }
+
+      function updateLightStatus() {
+        var dot = document.getElementById('light-dot');
+        var statusEl = document.getElementById('light-status');
+        if (!dot || !statusEl) return;
+        var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+        var labels = {
+          best: { zh: '最佳拍摄中', en: 'Golden hour now', ja: '撮影最高の瞬間', ko: '최적의 촬영 중', mn: 'Хамгийн сайн буулгалт', ru: 'Сейчас золотой час', fallback: 'Best shooting now' },
+          night: { zh: '夜景长曝光时段', en: 'Night long-exposure', ja: '夜景長露光タイム', ko: '야경 장노출 시간대', ru: 'Ночная длинная выдержка', mn: 'Шөнийн урт экспозиц', fallback: 'Night long-exposure' },
+          day: { zh: '日间常规光线', en: 'Daylight', ja: '日中の通常光', ko: '주간 일반 광', ru: 'Дневной свет', mn: 'Өдрийн гэрэл', fallback: 'Daylight' },
+        };
+        function pick(o) { return o[lang] || o[lang.slice(0, 2)] || o.fallback; }
+        if (!sunsetDateGlobal) {
+          dot.className = 'light-dot is-day';
+          statusEl.textContent = pick(labels.day);
+          return;
+        }
+        var diffMin = (sunsetDateGlobal.getTime() - new Date().getTime()) / 60000;
+        if (diffMin > 0 && diffMin <= 60) {
+          dot.className = 'light-dot is-best';
+          statusEl.textContent = pick(labels.best);
+        } else if (new Date().getTime() > sunsetDateGlobal.getTime()) {
+          dot.className = 'light-dot is-night';
+          statusEl.textContent = pick(labels.night);
+        } else {
+          dot.className = 'light-dot is-day';
+          statusEl.textContent = pick(labels.day);
+        }
+      }
+
+      setLoading();
+      fetch(url, { cache: 'no-store' })
+        .then(function (res) {
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.json();
+        })
+        .then(function (data) {
+          var temp = data && data.current ? data.current.temperature_2m : undefined;
+          var code = data && data.current ? data.current.weather_code : undefined;
+          var sunset = data && data.daily && data.daily.sunset ? data.daily.sunset[0] : undefined;
+
+          if (typeof temp === 'number' && typeof code === 'number') {
+            var lang = (document.documentElement.getAttribute('lang') || '').toLowerCase();
+            var shortLang = lang.indexOf('zh') === 0 ? 'zh' : lang.slice(0, 2);
+            weatherEl.textContent = weatherText(code, shortLang) + ' ' + Math.round(temp) + '°C';
+          } else {
+            weatherEl.textContent = '—';
+          }
+          sunsetEl.textContent = formatSunsetHHMM(sunset);
+          var sunsetDate = parseIsoLike(sunset);
+          if (sunsetDate) {
+            sunsetDateGlobal = sunsetDate;
+            if (arriveEl) {
+              var arriveDate = new Date(sunsetDate.getTime() - 60 * 60 * 1000);
+              arriveEl.textContent = formatClock(arriveDate);
+            }
+            if (blueHourEl) {
+              var blueHourEnd = new Date(sunsetDate.getTime() + 30 * 60 * 1000);
+              blueHourEl.textContent = formatClock(sunsetDate) + '–' + formatClock(blueHourEnd);
+            }
+          } else {
+            setPlannerFallback();
+          }
+        })
+        .catch(function () {
+          setFallback();
+        });
+      updateLightStatus();
+      updateCountdown();
+      setInterval(updateLightStatus, 60000);
+      setInterval(updateCountdown, 1000);
+    })();
+  </script>
+</section>
