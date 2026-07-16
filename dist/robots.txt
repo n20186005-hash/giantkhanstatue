@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://giantkhanstatue.com/sitemap.xml
