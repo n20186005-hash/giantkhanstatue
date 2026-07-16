@@ -9,10 +9,10 @@ const planner = h.sunsetPlanner ?? {};
 ---
 
 <section id="overview" class="relative min-h-[84vh] sm:min-h-[90vh] flex items-center justify-center text-center overflow-hidden">
-  <div class="absolute inset-0" style={`background-image: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.62)), url('/gallery/chinggis-khaan-statue-complex-1.jpg'); background-size: cover; background-position: center;`}></div>
+  <div class="absolute inset-0" style={`background-image: linear-gradient(rgba(15,32,21,0.55), rgba(15,32,21,0.62)), url('https://giantkhanstatue.com/gallery/chinggis-khaan-statue-complex-24.jpg'); background-size: cover; background-position: center;`}></div>
   <div class="relative z-10 px-4 sm:px-6 py-16 sm:py-20 max-w-4xl w-full animate-fade-in-up">
     <span class="inline-flex max-w-full flex-wrap items-center justify-center gap-1 px-3 py-1 mb-5 rounded-full text-xs sm:text-sm font-medium" style="background: rgba(255,255,255,0.15); color: #fff; backdrop-filter: blur(4px);">
-      ⭐ {h.rating} · {h.reviewCount}
+      {h.rating} · {h.reviewCount}
     </span>
 
     <h1 class="font-display text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-4">
@@ -27,7 +27,7 @@ const planner = h.sunsetPlanner ?? {};
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-2xl mx-auto mb-6">
       {facts.map((f) => (
         <div class="hero-fact">
-          <span class="hero-fact-icon" aria-hidden="true">{f.icon}</span>
+          {f.icon && <span class="hero-fact-icon" aria-hidden="true">{f.icon}</span>}
           <span class="hero-fact-label">{f.label}</span>
           <span class="hero-fact-value">{f.value}</span>
         </div>
@@ -38,7 +38,7 @@ const planner = h.sunsetPlanner ?? {};
     {h.practicalInfo && (
       <div class="hero-practical-bar" role="note" aria-label={h.practicalInfo.ariaLabel}>
         <div class="hero-practical-item">
-          <span class="hero-practical-icon" aria-hidden="true">{h.practicalInfo.clockIcon}</span>
+          {h.practicalInfo.clockIcon && <span class="hero-practical-icon" aria-hidden="true">{h.practicalInfo.clockIcon}</span>}
           <div class="hero-practical-text">
             <span class="hero-practical-label">{h.practicalInfo.hoursLabel}</span>
             <span class="hero-practical-value">{h.practicalInfo.hoursValue}</span>
@@ -47,7 +47,7 @@ const planner = h.sunsetPlanner ?? {};
         </div>
         <div class="hero-practical-divider" aria-hidden="true"></div>
         <div class="hero-practical-item">
-          <span class="hero-practical-icon" aria-hidden="true">{h.practicalInfo.ticketIcon}</span>
+          {h.practicalInfo.ticketIcon && <span class="hero-practical-icon" aria-hidden="true">{h.practicalInfo.ticketIcon}</span>}
           <div class="hero-practical-text">
             <span class="hero-practical-label">{h.practicalInfo.admissionLabel}</span>
             <span class="hero-practical-value">{h.practicalInfo.admissionValue}</span>
@@ -59,7 +59,7 @@ const planner = h.sunsetPlanner ?? {};
 
     {factsSource.url && (
       <p class="mt-3 text-xs text-white/70">
-        🔗 <a href={factsSource.url} target="_blank" rel="noopener noreferrer" class="underline decoration-white/40 underline-offset-2 hover:text-white">{factsSource.label}</a>
+        <a href={factsSource.url} target="_blank" rel="noopener noreferrer" class="underline decoration-white/40 underline-offset-2 hover:text-white">{factsSource.label}</a>
       </p>
     )}
 
@@ -67,13 +67,11 @@ const planner = h.sunsetPlanner ?? {};
     <div class="flex justify-center mb-6">
       <div class="inline-flex items-center gap-4 px-5 py-2.5 rounded-full" style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(8px);">
         <div class="flex items-center gap-2 text-sm text-white/90">
-          <span class="text-base">🌤️</span> 
           <span>{live.weather}</span>
           <span id="current-weather" class="font-medium">—</span>
         </div>
         <div class="w-px h-4 bg-white/20"></div>
         <div class="flex items-center gap-2 text-sm text-white/90">
-          <span class="text-base">🌅</span> 
           <span>{live.sunset}</span>
           <span id="sunset-time" class="font-medium">—</span>
         </div>
@@ -90,10 +88,10 @@ const planner = h.sunsetPlanner ?? {};
 
     <!-- Audio Player Interactive Widget -->
     {messages.audioPlayer && (
-      <div class="max-w-md mx-auto mb-7 rounded-2xl p-4 text-left group cursor-pointer transition-transform hover:scale-[1.02]" style="background: rgba(15,32,21,0.4); border: 1px solid rgba(255,255,255,0.15); backdrop-filter: blur(12px);" onclick="const audio = document.getElementById('chinggis-audio'); if(audio.paused){audio.play(); this.querySelector('.play-icon').textContent='⏸️'}else{audio.pause(); this.querySelector('.play-icon').textContent='▶️'}">
+      <div class="max-w-md mx-auto mb-7 rounded-2xl p-4 text-left group cursor-pointer transition-transform hover:scale-[1.02]" style="background: rgba(15,32,21,0.4); border: 1px solid rgba(255,255,255,0.15); backdrop-filter: blur(12px);" onclick="const audio = document.getElementById('chinggis-audio'); if(audio.paused){audio.play(); this.querySelector('.play-icon').textContent='PAUSE'}else{audio.pause(); this.querySelector('.play-icon').textContent='PLAY'}">
         <div class="flex items-center gap-4">
           <div class="w-12 h-12 rounded-full flex items-center justify-center shrink-0" style="background: var(--accent);">
-            <span class="play-icon text-white text-xl ml-1">▶️</span>
+            <span class="play-icon text-white text-xs font-bold tracking-widest ml-1">PLAY</span>
           </div>
           <div>
             <p class="text-xs uppercase tracking-[0.1em] text-white/70 mb-1">{messages.audioPlayer.cta}</p>
@@ -115,7 +113,7 @@ const planner = h.sunsetPlanner ?? {};
             {planner.note && <p class="text-sm sm:text-base mt-2 text-white/80 leading-relaxed">{planner.note}</p>}
             {planner.seaGlare && (
               <p class="text-xs sm:text-sm mt-3 pt-3 text-white/75 leading-relaxed border-t" style="border-color: rgba(255,255,255,0.18);">
-                🌊 {planner.seaGlare}
+                {planner.seaGlare}
               </p>
             )}
             <svg class="mt-3 w-full h-10" viewBox="0 0 320 40" preserveAspectRatio="none" aria-hidden="true" style="display:block;">
@@ -182,7 +180,7 @@ const planner = h.sunsetPlanner ?? {};
       if (!weatherEl || !sunsetEl) return;
 
       var url =
-        'https://api.open-meteo.com/v1/forecast?latitude=47.8089&longitude=107.5292&current=temperature_2m,weather_code&daily=sunset&timezone=Asia/Ulaanbaatar';
+        'https://api.open-meteo.com/v1/forecast?latitude=47.8079&longitude=107.5369&current=temperature_2m,weather_code&daily=sunset&timezone=Asia/Ulaanbaatar';
 
       function weatherText(code, lang) {
         if (lang === 'ja') {

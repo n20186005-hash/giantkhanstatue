@@ -71,27 +71,24 @@
     },
     "quickFacts": [
       {
-        "icon": "🐎",
         "label": "Highlight",
         "value": "40m equestrian statue"
       },
       {
-        "icon": "🎟️",
         "label": "Summit",
         "value": "Climb the head"
       },
       {
-        "icon": "🕘",
         "label": "Open",
         "value": "10:00–18:00"
       }
     ],
     "navCta": {
-      "label": "📍 Navigate",
+      "label": "Navigate",
       "href": "#transport"
     },
     "photoCta": {
-      "label": "📸 Photo spots",
+      "label": "Photo spots",
       "href": "#gallery"
     },
     "factsSource": {
@@ -115,8 +112,8 @@
     },
     "practicalInfo": {
       "ariaLabel": "Practical info: opening hours and admission",
-      "clockIcon": "🕘",
-      "ticketIcon": "🎟️",
+      "clockIcon": "",
+      "ticketIcon": "️",
       "hoursLabel": "Opening Hours",
       "hoursValue": "10:00–18:00",
       "hoursNote": "Open year-round",
@@ -130,31 +127,26 @@
     "subtitle": "A few numbers to understand this steppe giant above the Tuul River.",
     "items": [
       {
-        "icon": "🐎",
         "label": "Height / Height",
         "value": "40 m stainless",
         "note": "The equestrian statue is about 40 m tall and forged from around 250 tonnes of gleaming stainless steel; standing atop a 10 m visitor-centre base, it reaches roughly 50 m — the tallest equestrian statue in the world."
       },
       {
-        "icon": "📅",
         "label": "Built / Built",
         "value": "2008",
         "note": "Completed in 2008 to mark the 800th anniversary of the Mongol Empire; designed by sculptor D. Erdenebileg (Д. Эрдэнэбилэг) with architect J. Enkhjargal (Ж. Энхжаргал), funded by the Genco Tour Bureau at a cost of about USD 4.1 million."
       },
       {
-        "icon": "🧭",
         "label": "Facing / Facing",
         "value": "Faces east",
         "note": "Crowned with a Mongol helmet and clad in armour, it faces east — the direction of Chinggis Khaan’s birth, symbolising the rising ambition of the steppe empire."
       },
       {
-        "icon": "🏛️",
         "label": "Base / Base",
         "value": "Museum & giant boot",
         "note": "The circular base is supported by 36 columns representing the 36 khans from Chinggis Khaan to Ligden Khan; inside are an underground archaeological museum, restaurant and shops, plus a 9 m traditional Mongol boot made from over 200 cowhides. The complex covers about 212 hectares."
       },
       {
-        "icon": "📍",
         "label": "Coords / Coords",
         "value": "≈ 47°49′N, 107°32′E",
         "note": "Plus Code: RG5H+7W Nalaikh. Address: ND - 5 khoroo, Nalaikh, Ulaanbaatar 12593, Mongolia.",
@@ -162,7 +154,6 @@
         "copyLabel": "Copy Plus Code"
       },
       {
-        "icon": "🎟️",
         "label": "Admission / Admission",
         "value": "20,000 MNT",
         "note": "General admission is about 20,000 MNT (tögrög), covering the museum and the climb to the horse's head; buy on site with no advance booking needed. Card machines are often unreliable, so carry local cash. Confirm details with the official announcement."
@@ -174,19 +165,16 @@
     "subtitle": "On open steppe and a popular photo spot, sorting out safety, timing and budget upgrades the experience from “rushed check-in” to “relaxed visit.”",
     "highlights": [
       {
-        "icon": "👟",
         "label": "Footwear & wind",
         "value": "Wear comfy shoes",
         "note": "Windy steppe with occasional gravel and slopes; climbing the head uses interior walkways and stairs — wear flat comfy shoes. Strong sun, cold nights: bring sunscreen and a windproof layer."
       },
       {
-        "icon": "🚧",
         "label": "Summit & order",
         "value": "Follow the queue",
         "note": "The horse-head climb uses an interior lift and narrow walkway — follow staff, no reversing or crossing rails; accompany children and elders."
       },
       {
-        "icon": "🌡️",
         "label": "Plateau climate",
         "value": "Hydrate & layer",
         "note": "Big day-night swings and strong UV on the plateau — carry water and a light jacket. Winter is severe; some facilities may close — confirm ahead."
@@ -216,22 +204,18 @@
     "subtitle": "This is both a visitor landmark and a sacred place of Mongolian national memory. Following these rules is double respect for the land, history and others.",
     "rules": [
       {
-        "badge": "🚮",
         "title": "Take your litter",
         "text": "The steppe ecosystem is fragile with limited bins — bring a small bag and take everything away, especially cigarette butts, plastics and food scraps; keep the square and walkways tidy."
       },
       {
-        "badge": "🔇",
         "title": "Quiet & courtesy",
         "text": "The open square often hosts tour groups and pilgrims — lower your voice, no loud music; leave room for photos, meditation and those who pause."
       },
       {
-        "badge": "🚭",
         "title": "No smoking & fire",
         "text": "Dry, windy steppe — observe no-smoking and fire signs; do not smoke among wooden structures, grass or crowds; prevent steppe fires."
       },
       {
-        "badge": "🌱",
         "title": "Protect the statue & art",
         "text": "The stainless giant, sculptures and the Nine Banners corridor are public-value steppe landscapes — do not climb the base, discard items on the green or carve; keep this sacred place safe and dignified."
       }
@@ -327,7 +311,6 @@
     "modes": [
       {
         "label": "Flight (to Ulaanbaatar)",
-        "icon": "✈️",
         "title": "International to Mongolia",
         "description": "Easiest for most international travellers: fly to Ulaanbaatar (Chinggis Khaan International Airport), then hire a car or taxi east for about 1 hour — the classic way to the statue.",
         "details": [
@@ -352,7 +335,6 @@
       },
       {
         "label": "Car hire / taxi (to site)",
-        "icon": "🚕",
         "title": "City to site",
         "description": "Flexible: from Ulaanbaatar hire a car or taxi east via Terelj ~54 km, about 1 hour to the statue — the choice of most visitors.",
         "details": [
@@ -377,7 +359,6 @@
       },
       {
         "label": "Day tour / minibus",
-        "icon": "🚌",
         "title": "The hidden shared option",
         "description": "Many Ulaanbaatar agencies offer day tours including the statue and Terelj, or shared minibuses — good for light travellers who want to see it first, skipping self-drive and navigation.",
         "details": [
@@ -402,7 +383,6 @@
       },
       {
         "label": "Self-drive (park/charge)",
-        "icon": "🅿️",
         "title": "Via Terelj · nearby parking",
         "description": "Good with elders/children, lots of luggage, or when touring Mongolia; the site has a supporting car park.",
         "details": [
@@ -427,7 +407,6 @@
       },
       {
         "label": "On foot (within site)",
-        "icon": "🚶",
         "title": "From square to head",
         "description": "If already on site, walking is the most natural way to observe the giant, Nine Banners corridor and steppe.",
         "details": [
@@ -438,7 +417,6 @@
       },
       {
         "label": "Horseback / steppe slow",
-        "icon": "🐎",
         "title": "Steppe slow travel",
         "description": "The most relaxing way to feel the steppe empire (mostly horse-riding experiences).",
         "details": [
@@ -724,25 +702,21 @@
       {
         "name": "Баттулга",
         "date": "May 2026",
-        "rating": 5,
         "text": "Visited at dawn; the giant is gorgeous in backlight. Standing at the head, all fell silent — weekdays strongly recommended, fewest people and best light."
       },
       {
         "name": "Оюун",
         "date": "Apr 2026",
-        "rating": 5,
         "text": "About 1 hour by car from Ulaanbaatar; the stainless shade is healing, and we caught a clear sunny day with superb steppe views."
       },
       {
         "name": "Мөнх",
         "date": "Mar 2026",
-        "rating": 4,
         "text": "Worth it as a national landmark; weekends are crowded — weekdays or dawn are more comfortable."
       },
       {
         "name": "Наран",
         "date": "Feb 2026",
-        "rating": 5,
         "text": "About 1 hour from the city to the statue; the steppe and Terelj along the way are relaxing — good for a half-day stroll."
       }
     ]
@@ -873,22 +847,18 @@
       "title": "Nearby Services",
       "items": [
         {
-          "icon": "🅿️",
           "label": "Parking",
           "value": "Supporting car park (mostly paid)"
         },
         {
-          "icon": "🚻",
           "label": "Restrooms",
           "value": "Public restrooms at site & museum"
         },
         {
-          "icon": "🔌",
           "label": "Fuel / Charge",
           "value": "Few chargers, mostly in Ulaanbaatar"
         },
         {
-          "icon": "♿",
           "label": "Accessibility",
           "value": "Flat base and square accessible"
         }
@@ -1048,7 +1018,6 @@
     "items": [
       {
         "id": "sunrise",
-        "icon": "🌅",
         "name": "Square front · full giant",
         "location": "Centre of the square",
         "background": "From dawn to dusk, the giant as foreground and steppe skyline as background is the classic “statue–sky–steppe” frame; the horse silhouette is most moving in backlight.",
@@ -1063,7 +1032,6 @@
       },
       {
         "id": "bridge",
-        "icon": "🐎",
         "name": "Horse head · steppe panorama",
         "location": "Head viewpoint",
         "background": "From the head viewpoint, frame “giant–Tuul River–steppe” together — the best vantage to grasp the steppe empire’s scale.",
@@ -1078,7 +1046,6 @@
       },
       {
         "id": "sea",
-        "icon": "🏛️",
         "name": "Nine Banners corridor",
         "location": "Along the corridor",
         "background": "The lines of the Nine Banners (horse-tail flags) echo the stainless giant; with the steppe backdrop, the human imagination is richer.",
@@ -1093,7 +1060,6 @@
       },
       {
         "id": "night",
-        "icon": "🌃",
         "name": "Night lights",
         "location": "Square toward the head",
         "background": "After dark the giant is lit, echoing the steppe starry sky — great for long-exposure night scenes and silhouettes.",
@@ -1143,7 +1109,6 @@
     "subtitle": "One layer beneath the surface “spectacular green” reveals why the complex is truly rare: it turns a steppe gateway into an open-air natural classroom that changes with the seasons.",
     "comparison": [
       {
-        "icon": "🌳",
         "badge": "Spring–Summer green",
         "name": "Steppe & new green",
         "summary": "Spring–summer is the lushest season at the complex. By the Tuul River the grass is rich; the giant outlines the freshest national silhouette on the open steppe.",
@@ -1154,7 +1119,6 @@
         ]
       },
       {
-        "icon": "🍂",
         "badge": "Autumn–Winter colour",
         "name": "Golden grass & first snow",
         "summary": "Autumn–winter is the most storied season. Grass turns gold, first snow occasional, weaving with Ulaanbaatar’s vast sky into a gold-and-silver palette.",
@@ -1169,7 +1133,6 @@
     "seasonSubtitle": "One steppe, four temperaments. The most anticipated green and landscape of the complex by season.",
     "seasons": [
       {
-        "icon": "🌱",
         "badge": "SPRING",
         "name": "Spring · new green & melt",
         "summary": "Temperature rises, steppe greens anew — the best season for slow walks and dawn photography.",
@@ -1180,7 +1143,6 @@
         ]
       },
       {
-        "icon": "🌿",
         "badge": "SUMMER",
         "name": "Summer · deep green",
         "summary": "Midsummer green at its deepest; the giant stands amid it — good for cool walks and family outings.",
@@ -1191,7 +1153,6 @@
         ]
       },
       {
-        "icon": "🍁",
         "badge": "AUTUMN",
         "name": "Autumn · golden grass",
         "summary": "The most storied season — grass turns gold, first snow near, with the giant in a golden palette.",
@@ -1202,7 +1163,6 @@
         ]
       },
       {
-        "icon": "❄️",
         "badge": "WINTER",
         "name": "Winter · silent snowfield",
         "summary": "After snow the steppe is open and silent; the giant and sky form a cold, solemn winter landscape.",
@@ -1217,30 +1177,26 @@
   "audience": {
     "title": "Who is it for? Turn segmented guides into custom routes",
     "subtitle": "Not just “you will like it” but directly tell how to walk, where to start, and which Mongolian node to link.",
-    "resonanceLabel": "Resonance: ",
-    "routeLabel": "Recommended module: ",
-    "tipLabel": "Tip: ",
+    "resonanceLabel": "Resonance:",
+    "routeLabel": "Recommended module:",
+    "tipLabel": "Tip:",
     "items": [
       {
-        "icon": "👨‍👩‍👧",
         "group": "Families",
         "resonance": "Open flat square and museum; kids see the giant and hear the golden-whip legend, elders stroll the ground level most easily.",
         "tip": "Spend energy first on the square and museum, not on the head-queue."
       },
       {
-        "icon": "📷",
         "group": "Photographers & couples",
         "resonance": "Dawn and dusk backlight are Mongolia’s most majestic frames, with very high shot rates.",
         "tip": "Calculate arrival, return and light together so composition keeps up with the live rhythm."
       },
       {
-        "icon": "🎭",
         "group": "History & culture lovers",
         "resonance": "As an open-air sample of the steppe empire, the Nine Banners corridor, museum and golden-whip legend are worth slow reading.",
         "tip": "Avoid the busiest weekends; choose dawn or weekday afternoons for detail."
       },
       {
-        "icon": "🗺️",
         "group": "First-time visitors",
         "resonance": "Without going far to the suburbs, feel Mongol Empire culture and steppe landscape near Ulaanbaatar — the ideal starting point for the “steppe and empire” theme.",
         "tip": "If choosing only one Ulaanbaatar suburb landmark, the statue best fits the first lesson of “steppe and nation.”"
@@ -1253,7 +1209,6 @@
     "scenarioTitle": "Two options, how to choose",
     "options": [
       {
-        "icon": "🏕️",
         "name": "Site / Nalaikh outskirts",
         "role": "Closest to giant & steppe",
         "highlight": "Staying in Nalaikh or the outskirts lets you reach the square and Nine Banners at dawn, saving the best light for the giant — for “steppe + summit” travellers.",
@@ -1265,7 +1220,6 @@
         ]
       },
       {
-        "icon": "🏙️",
         "name": "Ulaanbaatar city",
         "role": "Best for dining & hub",
         "highlight": "Staying in the city near Chinggis Khaan International Airport, commercial areas and dining; by day car hire or day tour east ~1 hour to the statue — for “city + steppe” travellers.",
@@ -1291,19 +1245,16 @@
     "title": "Academic & Practical Downloads",
     "items": [
       {
-        "icon": "📘",
         "name": "Chinggis Khaan Statue Complex cultural guide map.pdf",
         "desc": "Detailed site terrain and public facilities",
         "url": "#"
       },
       {
-        "icon": "📘",
         "name": "Tsonjin Boldog golden-whip legend & history map.pdf",
         "desc": "Steppe-empire science and legend distribution",
         "url": "#"
       },
       {
-        "icon": "🗺️",
         "name": "GPX track file download",
         "desc": "Import into phone navigation for walking & steppe slow travel",
         "url": "#"
@@ -1321,25 +1272,21 @@
       {
         "year": "1177",
         "title": "The Golden Whip Legend",
-        "icon": "🏇",
         "desc": "On his way home after meeting Toghrul Khan, the young Temüjin (later Chinggis Khaan) found a golden whip at Tsonjin Boldog — seen as an auspicious omen of his future conquests."
       },
       {
         "year": "1206",
         "title": "Founding of the Mongol Empire",
-        "icon": "👑",
         "desc": "Temüjin was proclaimed “Chinggis Khaan” and unified the steppe tribes into the Mongol Empire — the very event whose 800th anniversary the 2008 statue commemorates."
       },
       {
         "year": "2008",
         "title": "The Statue Completed",
-        "icon": "🏗️",
         "desc": "Funded by Genco Tourism and designed by sculptor D. Erdenebileg with architect J. Enkhjargal, the 40-metre monument was completed at a cost of about US$4.1 million."
       },
       {
         "year": "Today",
         "title": "Symbol of National Identity",
-        "icon": "🌍",
         "desc": "Today it stands as a symbol of Mongolian identity and the world’s tallest equestrian statue, welcoming visitors from across the globe."
       }
     ]

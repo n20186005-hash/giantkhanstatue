@@ -38,7 +38,7 @@ const items = q.items ?? [];
           {it.note && <p class="text-sm leading-relaxed relative z-10" style="color: var(--text-secondary);">{it.note}</p>}
           {it.copyCode && (
             <button type="button" data-copy={it.copyCode} class="relative z-10 mt-3 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium transition-transform hover:scale-[1.03]" style="background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent);">
-              📋 <span>{it.copyLabel ?? '复制'}</span>
+              <span>{it.copyLabel ?? '复制'}</span>
             </button>
           )}
         </div>

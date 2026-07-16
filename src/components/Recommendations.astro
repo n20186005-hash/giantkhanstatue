@@ -10,7 +10,7 @@ const rec = messages.recommendations;
 
     <div class="grid md:grid-cols-2 gap-10">
       <div>
-        <h3 class="font-semibold mb-5 flex items-center gap-2" style="color: var(--accent);">📌 {rec.attractionsTitle}</h3>
+        <h3 class="font-semibold mb-5 flex items-center gap-2" style="color: var(--accent);">{rec.attractionsTitle}</h3>
         <div class="space-y-3">
           {rec.attractions.map((a) => (
             <a href={a.url} target="_blank" rel="noopener noreferrer" class="block rounded-xl p-4 border hover:shadow-md transition" style="background: var(--card-bg); border-color: var(--border-color); color: var(--text-primary);">
@@ -21,7 +21,7 @@ const rec = messages.recommendations;
       </div>
 
       <div>
-        <h3 class="font-semibold mb-5 flex items-center gap-2" style="color: var(--accent);">🎟️ {rec.toursTitle}</h3>
+        <h3 class="font-semibold mb-5 flex items-center gap-2" style="color: var(--accent);">{rec.toursTitle}</h3>
         <div class="space-y-3">
           {rec.tours.map((a) => (
             <a href={a.url} target="_blank" rel="noopener noreferrer" class="block rounded-xl p-4 border hover:shadow-md transition" style="background: var(--card-bg); border-color: var(--border-color); color: var(--text-primary);">

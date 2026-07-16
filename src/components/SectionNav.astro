@@ -15,8 +15,7 @@ const items = [
 ---
 
 <div class="section-nav" id="section-nav" aria-label="Section navigation">
-  <div class="max-w-6xl mx-auto px-4 flex items-center gap-1 overflow-x-auto">
-    <span class="shrink-0 text-sm font-semibold mr-1" style="color: var(--text-primary);" aria-hidden="true">🛕</span>
+  <div class="max-w-6xl mx-auto px-4 flex items-center h-full overflow-x-auto no-scrollbar gap-5">
     {items.map((it) => (
       <a href={`/${lang}${it.href}`} class="section-nav-link">{it.label}</a>
     ))}
