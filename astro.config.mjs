@@ -6,7 +6,7 @@ export default defineConfig({
   site: 'https://giantkhanstatue.com',
   output: 'static',
   i18n: {
-    defaultLocale: 'zh',
+    defaultLocale: 'mn',
     locales: ['zh', 'en', 'ja', 'ko', 'mn', 'ru'],
     routing: {
       prefixDefaultLocale: true,
