@@ -10,13 +10,14 @@ interface Props {
   title: string;
   description: string;
   path?: string;
+  noindex?: boolean;
 }
 
-const { title, description, path = '' } = Astro.props;
+const { title, description, path = '', noindex = false } = Astro.props;
 const lang = getLangFromUrl(Astro.url);
 const htmlLang = htmlLangAttr(lang);
-const alts = buildAlternates(path);
-const canonical = alts[lang] ?? alts.xDefault;
+const alts = noindex ? {} : buildAlternates(path);
+const canonical = noindex ? Astro.url.href : (alts[lang] ?? alts.xDefault);
 const { messages } = getI18n(Astro.url);
 const attractionName = messages.header?.siteName ?? messages.footer?.siteName ?? messages.meta.title;
 
@@ -53,9 +54,11 @@ const jsonLd = {
   aggregateRating: {
     '@type': 'AggregateRating',
     ratingValue: '4.5',
-    reviewCount: '4344',
+    reviewCount: '4602',
   },
   sameAs: ['https://maps.app.goo.gl/iNBHqntxJc3M3wwp9'],
+  hasMap: 'https://maps.app.goo.gl/iNBHqntxJc3M3wwp9',
+  publicAccess: true,
 };
   const breadcrumbLd = (() => {
     const bc = messages.breadcrumb;
@@ -111,14 +114,19 @@ const jsonLd = {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
-    <link rel="alternate" hreflang="zh" href={alts.zh} />
-    <link rel="alternate" hreflang="en" href={alts.en} />
-    <link rel="alternate" hreflang="ja" href={alts.ja} />
-    <link rel="alternate" hreflang="ko" href={alts.ko} />
-    <link rel="alternate" hreflang="mn" href={alts.mn} />
-    <link rel="alternate" hreflang="ru" href={alts.ru} />
-    <link rel="alternate" hreflang="x-default" href={alts.xDefault} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    {!noindex && (
+      <>
+        <link rel="canonical" href={canonical} />
+        <link rel="alternate" hreflang="zh" href={alts.zh} />
+        <link rel="alternate" hreflang="en" href={alts.en} />
+        <link rel="alternate" hreflang="ja" href={alts.ja} />
+        <link rel="alternate" hreflang="ko" href={alts.ko} />
+        <link rel="alternate" hreflang="mn" href={alts.mn} />
+        <link rel="alternate" hreflang="ru" href={alts.ru} />
+        <link rel="alternate" hreflang="x-default" href={alts.xDefault} />
+      </>
+    )}
 
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -143,9 +151,13 @@ const jsonLd = {
     <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
 
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script>
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(parkLd)}></script>
+    {!noindex && (
+      <>
+        <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script>
+        <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>
+        <script type="application/ld+json" is:inline set:html={JSON.stringify(parkLd)}></script>
+      </>
+    )}
 
     <script is:inline>
       (function () {

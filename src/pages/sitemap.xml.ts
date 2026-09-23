@@ -4,7 +4,8 @@ import { languagesList } from '../i18n/ui';
 const site = 'https://giantkhanstatue.com';
 const langs = languagesList; // ['zh', 'en', 'ja', 'ko', 'mn', 'ru']
 // Each entry maps to the per-language route set. '' = the main attraction page.
-const routes = ['', '/cookie-settings', '/privacy-policy', '/terms-of-service'];
+// Policy/cookie pages are noindex and excluded from the sitemap.
+const routes = [''];
 
 function escapeUrl(url: string): string {
   return url.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Chinggis Khaan Statue Complex | Nalaikh, Ulaanbaatar · 40m stainless equestrian statue, museum & steppe cultural landmark",
-    "description": "The complete guide to the Chinggis Khaan Statue Complex (Mongolian: Чингис Хааны морин хөшөө): a 40-metre stainless-steel equestrian statue of Chinggis Khaan standing on the Tsonjin Boldog steppe about 54 km southeast of Ulaanbaatar, Mongolia. Completed in 2008 by sculptor D. Erdenebileg and architect J. Enkhjargal, it faces east — the direction of Chinggis Khaan’s birth. Visitors ride an interior lift and walkway up to the horse’s head for a panorama over the Tuul River steppe; the base houses a museum, restaurant and souvenir shops, plus the world’s largest boot-shaped café. Rated 4.5 (4,344), it is one of Mongolia’s most representative attractions. Opening hours, transport, history, photo spots and visitor reviews — all in one place."
+    "title": "Chinggis Khaan Statue Complex | Tickets, Hours & How to Get There (Ulaanbaatar)",
+    "description": "Visit the Chinggis Khaan Statue Complex (Tsonjin Boldog) — a 40 m east-facing stainless equestrian statue 54 km / 1 h from Ulaanbaatar. Open 10:00–18:00 year-round; admission ≈20,000 MNT (museum + horse-head climb). Museum, boot café, transport from Ulaanbaatar, history, photo spots and visitor reviews — all in one guide. Rated 4.5 (4,602)."
   },
   "header": {
     "siteName": "Chinggis Khaan Statue Complex",
@@ -47,8 +47,8 @@
   "hero": {
     "title": "Chinggis Khaan Statue Complex",
     "subtitle": "A 40-metre stainless-steel equestrian statue of Chinggis Khaan on the Tsonjin Boldog steppe, about 54 km southeast of Ulaanbaatar, Mongolia. Completed in 2008 by sculptor D. Erdenebileg and architect J. Enkhjargal, it faces east — the direction of Chinggis Khaan’s birth. Visitors ride an interior lift and walkway up to the horse’s head for a panorama over the Tuul River steppe; the base houses a museum, restaurant, souvenir shops, and the world’s largest boot-shaped café.",
-    "rating": "4.5 (4,344)",
-    "reviewCount": "4,344 reviews",
+    "rating": "4.5 (4,602)",
+    "reviewCount": "4,602 reviews",
     "hours": "10:00–18:00 (year-round)",
     "openMaps": "View on Google Maps",
     "mapsUrl": "https://maps.app.goo.gl/iNBHqntxJc3M3wwp9",
@@ -905,6 +905,10 @@
         "id": "plan",
         "title": "Planning & Entry",
         "items": [
+          {
+            "q": "What are the opening hours and ticket price?",
+            "a": "Open year-round, 10:00–18:00. General admission is about 20,000 MNT, covering the museum and the climb to the horse's head; buy on site, no advance booking needed."
+          },
           {
             "q": "Is a ticket needed?",
             "a": "The site is ticketed; the head climb and museum are usually included or need separate booking — check the box office and official notice."
